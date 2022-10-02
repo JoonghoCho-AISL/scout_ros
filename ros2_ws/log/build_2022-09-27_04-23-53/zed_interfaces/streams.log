@@ -1,0 +1,15 @@
+[0.020s] Invoking command in '/ROS/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ROS/ros2_ws/build/zed_interfaces -- -j20 -l20
+[0.054s] [  0%] Built target zed_interfaces__cpp
+[0.056s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[0.072s] [ 24%] Built target zed_interfaces__rosidl_typesupport_cpp
+[0.080s] [ 47%] Built target zed_interfaces__rosidl_typesupport_c
+[0.081s] [ 48%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[0.082s] [ 60%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[0.085s] [ 72%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.103s] [ 84%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[0.115s] [ 84%] Built target zed_interfaces
+[0.135s] [ 85%] Built target zed_interfaces__py
+[0.179s] [ 96%] Built target zed_interfaces__python
+[0.207s] [100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.208s] [100%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[0.208s] [100%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext

@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000067] (zed_interfaces) JobQueued: {'identifier': 'zed_interfaces', 'dependencies': OrderedDict()}
+[0.000107] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict([('zed_interfaces', '/ROS/ros2_ws/install/zed_interfaces')])}
+[0.000117] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_interfaces', '/ROS/ros2_ws/install/zed_interfaces'), ('zed_components', '/ROS/ros2_ws/install/zed_components')])}
+[0.000125] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_interfaces', '/ROS/ros2_ws/install/zed_interfaces'), ('zed_components', '/ROS/ros2_ws/install/zed_components'), ('zed_wrapper', '/ROS/ros2_ws/install/zed_wrapper')])}
+[0.000133] (zed_interfaces) JobStarted: {'identifier': 'zed_interfaces'}
+[0.006170] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'cmake'}
+[0.006279] (zed_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/ROS/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_interfaces'], 'cwd': '/ROS/ros2_ws/build/zed_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros2_ws'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_interfaces'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws')]), 'shell': False}
+[0.036874] (zed_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.093278] (zed_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.095541] (zed_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099374] (-) TimerEvent: {}
+[0.160961] (zed_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.162132] (zed_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199554] (-) TimerEvent: {}
+[0.246852] (zed_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.257318] (zed_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.257735] (zed_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.260023] (zed_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299697] (-) TimerEvent: {}
+[0.320236] (zed_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.320904] (zed_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.367466] (zed_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.373839] (zed_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.374052] (zed_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.376618] (zed_interfaces) StderrLine: {'line': b'CMake Error at CMakeLists.txt:12 (find_package):\n'}
+[0.376786] (zed_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.376819] (zed_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.376844] (zed_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.376866] (zed_interfaces) StderrLine: {'line': b'\n'}
+[0.376889] (zed_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.376912] (zed_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.376935] (zed_interfaces) StderrLine: {'line': b'\n'}
+[0.376957] (zed_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.376981] (zed_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.377004] (zed_interfaces) StderrLine: {'line': b'\n'}
+[0.377028] (zed_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.377052] (zed_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.377075] (zed_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.377097] (zed_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.377119] (zed_interfaces) StderrLine: {'line': b'\n'}
+[0.377141] (zed_interfaces) StderrLine: {'line': b'\n'}
+[0.377163] (zed_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.377187] (zed_interfaces) StdoutLine: {'line': b'See also "/ROS/ros2_ws/build/zed_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.378667] (zed_interfaces) CommandEnded: {'returncode': 1}
+[0.398706] (zed_interfaces) JobEnded: {'identifier': 'zed_interfaces', 'rc': 1}
+[0.399780] (-) TimerEvent: {}
+[0.409493] (zed_components) JobSkipped: {'identifier': 'zed_components'}
+[0.409564] (zed_wrapper) JobSkipped: {'identifier': 'zed_wrapper'}
+[0.409591] (zed_ros2) JobSkipped: {'identifier': 'zed_ros2'}
+[0.409751] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/ROS/ros2_ws/build/scout_msgs': /usr/bin/cmake /ROS/ros2_ws/src/scout_ros/scout_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/scout_msgs
+Invoked command in '/ROS/ros2_ws/build/scout_msgs' returned '1': /usr/bin/cmake /ROS/ros2_ws/src/scout_ros/scout_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/scout_msgs

@@ -1,0 +1,2 @@
+Invoking command in '/ROS/ros2_ws/build/scout_bringup': /usr/bin/cmake /ROS/ros2_ws/src/scout_ros/scout_bringup -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/scout_bringup
+Invoked command in '/ROS/ros2_ws/build/scout_bringup' returned '1': /usr/bin/cmake /ROS/ros2_ws/src/scout_ros/scout_bringup -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/scout_bringup

@@ -1,0 +1,67 @@
+[0.139s] Invoking command in '/ROS/zed_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_tutorial_video
+[0.204s] -- The C compiler identification is GNU 9.4.0
+[0.264s] -- The CXX compiler identification is GNU 9.4.0
+[0.269s] -- Check for working C compiler: /usr/bin/cc
+[0.314s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.315s] -- Detecting C compiler ABI info
+[0.349s] -- Detecting C compiler ABI info - done
+[0.355s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.408s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.488s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.488s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.608s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.718s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.748s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.851s] -- Looking for pthread.h
+[0.902s] -- Looking for pthread.h - found
+[0.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.946s] -- Looking for pthread_create in pthreads
+[0.982s] -- Looking for pthread_create in pthreads - not found
+[0.983s] -- Looking for pthread_create in pthread
+[1.024s] -- Looking for pthread_create in pthread - found
+[1.025s] -- Found Threads: TRUE  
+[1.129s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.242s] -- Configuring done
+[1.247s] -- Generating done
+[1.247s] -- Build files have been written to: /ROS/zed_ws/build/zed_tutorial_video
+[1.252s] Invoked command in '/ROS/zed_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-examples/tutorials/zed_video_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_tutorial_video
+[1.255s] Invoking command in '/ROS/zed_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/zed_tutorial_video -- -j20 -l20
+[1.277s] [35m[1mScanning dependencies of target zed_tutorial_video[0m
+[1.304s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_video.dir/src/zed_video_sub_tutorial.cpp.o[0m
+[4.992s] [100%] [32m[1mLinking CXX executable zed_tutorial_video[0m
+[5.068s] [100%] Built target zed_tutorial_video
+[5.075s] Invoked command in '/ROS/zed_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/zed_tutorial_video -- -j20 -l20
+[5.091s] Invoking command in '/ROS/zed_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/zed_tutorial_video
+[5.096s] -- Install configuration: "Release"
+[5.096s] -- Execute custom install script
+[5.096s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+[5.102s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+[5.107s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+[5.113s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+[5.119s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+[5.124s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+[5.129s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+[5.134s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+[5.140s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+[5.146s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+[5.151s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+[5.157s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+[5.162s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+[5.167s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+[5.173s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+[5.179s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml
+[5.188s] Invoked command in '/ROS/zed_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/zed_tutorial_video

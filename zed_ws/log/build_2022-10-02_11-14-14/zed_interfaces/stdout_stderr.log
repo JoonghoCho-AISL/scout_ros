@@ -1,0 +1,10 @@
+[  0%] Built target zed_interfaces__cpp
+[ 12%] Built target zed_interfaces__rosidl_generator_c
+[ 24%] Built target zed_interfaces__rosidl_typesupport_cpp
+[ 36%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[ 48%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[ 60%] Built target zed_interfaces__rosidl_typesupport_c
+make[2]: *** No rule to make target '/opt/ros/foxy/lib/libfastrtps.so.2.1.2', needed by 'libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

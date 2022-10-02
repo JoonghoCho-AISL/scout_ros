@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/ROS/ros2_ws/build/ugv_sdk': /usr/bin/cmake /ROS/ros2_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/ugv_sdk
+[0.044s] -- The C compiler identification is GNU 9.4.0
+[0.072s] -- The CXX compiler identification is GNU 9.4.0
+[0.075s] -- Check for working C compiler: /usr/bin/cc
+[0.109s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.109s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.149s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.151s] -- Check for working CXX compiler: /usr/bin/c++
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.191s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.237s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.238s] -- Build package with cmake
+[0.238s] -- Setting build type to 'Release' as none was specified.
+[0.238s] -- Tests will not be built
+[0.239s] -- Looking for pthread.h
+[0.275s] -- Looking for pthread.h - found
+[0.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.312s] -- Looking for pthread_create in pthreads
+[0.343s] -- Looking for pthread_create in pthreads - not found
+[0.343s] -- Looking for pthread_create in pthread
+[0.380s] -- Looking for pthread_create in pthread - found
+[0.381s] -- Found Threads: TRUE  
+[0.382s] -- Project will be installed to /ROS/ros2_ws/install/ugv_sdk with 'make install'
+[0.382s] --  - To install LIB components to /ROS/ros2_ws/install/ugv_sdk/lib
+[0.382s] --  - To install BIN components to /ROS/ros2_ws/install/ugv_sdk/bin
+[0.382s] --  - To install INCLUDE components to /ROS/ros2_ws/install/ugv_sdk/include
+[0.382s] --  - To install CMAKE components to /ROS/ros2_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[0.388s] -- Configuring done
+[0.395s] -- Generating done
+[0.395s] CMake Warning:
+[0.395s]   Manually-specified variables were not used by the project:
+[0.395s] 
+[0.395s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.395s] 
+[0.395s] 
+[0.395s] -- Build files have been written to: /ROS/ros2_ws/build/ugv_sdk

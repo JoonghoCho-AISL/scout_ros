@@ -1,0 +1,3 @@
+[console_scripts]
+mobius_send_data = send_mobius.send_cmd:main
+

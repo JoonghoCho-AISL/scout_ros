@@ -1,0 +1,11 @@
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/CommonGroup.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/TimeGroup.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/ImuGroup.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/GpsGroup.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/AttitudeGroup.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/InsGroup.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/TimeUTC.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/DOP.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/VpeStatus.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/TimeStatus.idl
+/ROS/zed_ws/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/InsStatus.idl

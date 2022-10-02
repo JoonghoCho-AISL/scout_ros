@@ -1,0 +1,16 @@
+{
+  "package_name": "vectornav_msgs",
+  "non_idl_tuples": [
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/CommonGroup.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/TimeGroup.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/ImuGroup.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/GpsGroup.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/AttitudeGroup.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/InsGroup.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/TimeUTC.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/DOP.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/VpeStatus.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/TimeStatus.msg",
+    "/ROS/zed_ws/src/vectornav/vectornav_msgs:msg/InsStatus.msg"
+  ]
+}

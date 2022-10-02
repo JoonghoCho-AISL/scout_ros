@@ -1,0 +1,224 @@
+[0.013s] Invoking command in '/ROS/velodyne_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake /ROS/velodyne_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/ROS/velodyne_ws/install/velodyne_msgs
+[0.046s] -- The C compiler identification is GNU 7.5.0
+[0.080s] -- The CXX compiler identification is GNU 7.5.0
+[0.084s] -- Check for working C compiler: /usr/bin/cc
+[0.123s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.124s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.168s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.341s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Detecting CXX compile features
+[0.591s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.611s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.611s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.707s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.714s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.734s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.788s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[0.807s] -- Found FastRTPS: /opt/ros/dashing/include  
+[0.844s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.863s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.954s] -- Found ament_cmake_cppcheck: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[0.955s] -- Found ament_cmake_cpplint: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[0.957s] -- Found ament_cmake_uncrustify: 0.7.12 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[0.983s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[0.998s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.105s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.121s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.122s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.143s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[1.143s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.143s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.143s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.158s] -- Found PythonExtra: .so  
+[1.252s] -- Found ament_cmake_flake8: 0.7.12 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[1.255s] -- Found ament_cmake_pep257: 0.7.12 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[1.257s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.265s] -- Added test 'lint_cmake' to check CMake code style
+[1.266s] -- Added test 'xmllint' to check XML markup files
+[1.269s] -- Configuring done
+[1.313s] -- Generating done
+[1.315s] -- Build files have been written to: /ROS/velodyne_ws/build/velodyne_msgs
+[1.319s] Invoked command in '/ROS/velodyne_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake /ROS/velodyne_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/ROS/velodyne_ws/install/velodyne_msgs
+[1.320s] Invoking command in '/ROS/velodyne_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_msgs -- -j20 -l20
+[1.346s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.346s] [35m[1mScanning dependencies of target velodyne_msgs__cpp[0m
+[1.354s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.547s] [  5%] Built target velodyne_msgs__cpp
+[1.554s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.556s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_generator_c[0m
+[1.557s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.569s] [ 16%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/velodyne_scan__functions.c.o[0m
+[1.569s] [ 16%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/velodyne_packet__functions.c.o[0m
+[1.600s] [ 18%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[1.624s] [ 18%] Built target velodyne_msgs__rosidl_generator_c
+[1.631s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.767s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.776s] [ 24%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[1.780s] [ 27%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[1.796s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.809s] [ 32%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[1.809s] [ 32%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[1.901s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_introspection_c[0m
+[1.911s] [ 35%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/velodyne_scan__type_support.c.o[0m
+[1.912s] [ 37%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.912s] [ 40%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/velodyne_packet__type_support.c.o[0m
+[1.931s] [ 43%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.954s] [ 43%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[1.961s] [ 43%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[2.083s] [ 45%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.131s] [ 45%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[2.138s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.138s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.308s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_cpp[0m
+[2.320s] [ 56%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[2.320s] [ 56%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[2.330s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.343s] [ 59%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/velodyne_packet__type_support_c.cpp.o[0m
+[2.343s] [ 62%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/velodyne_scan__type_support_c.cpp.o[0m
+[2.540s] [ 64%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.590s] [ 64%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[2.597s] [ 67%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.598s] [ 70%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[2.646s] [ 70%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[2.766s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_c[0m
+[2.774s] [ 72%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[2.777s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[2.794s] [ 78%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[2.828s] [ 78%] Built target velodyne_msgs__rosidl_typesupport_c
+[2.834s] [35m[1mScanning dependencies of target velodyne_msgs[0m
+[2.841s] [ 78%] Built target velodyne_msgs
+[2.848s] [35m[1mScanning dependencies of target velodyne_msgs__py[0m
+[2.855s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.170s] [ 81%] Built target velodyne_msgs__py
+[3.177s] [35m[1mScanning dependencies of target velodyne_msgs__python[0m
+[3.192s] [ 83%] [32mBuilding C object CMakeFiles/velodyne_msgs__python.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[3.192s] [ 86%] [32mBuilding C object CMakeFiles/velodyne_msgs__python.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[3.237s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__python.so[0m
+[3.272s] [ 89%] Built target velodyne_msgs__python
+[3.279s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.281s] [35m[1mScanning dependencies of target velodyne_msgs__rosidl_typesupport_c__pyext[0m
+[3.292s] [ 91%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.296s] [ 94%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.332s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[3.336s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[3.367s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.370s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[3.377s] Invoked command in '/ROS/velodyne_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_msgs -- -j20 -l20
+[3.440s] Invoking command in '/ROS/velodyne_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_msgs --target install -- -j20 -l20
+[3.472s] [  2%] Built target velodyne_msgs__cpp
+[3.473s] [ 13%] Built target velodyne_msgs__rosidl_generator_c
+[3.489s] [ 32%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[3.489s] [ 35%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[3.492s] [ 45%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[3.510s] [ 67%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[3.511s] [ 67%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[3.528s] [ 78%] Built target velodyne_msgs__rosidl_typesupport_c
+[3.542s] [ 78%] Built target velodyne_msgs
+[3.556s] [ 81%] Built target velodyne_msgs__py
+[3.573s] [ 89%] Built target velodyne_msgs__python
+[3.590s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[3.591s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.603s] [36mInstall the project...[0m
+[3.608s] -- Install configuration: ""
+[3.608s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan.hpp
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__struct.hpp
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__struct.hpp
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__traits.hpp
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__traits.hpp
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet.hpp
+[3.609s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs
+[3.609s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__functions.h
+[3.609s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__type_support.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__type_support.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__functions.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__functions.c
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__functions.c
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__struct.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__struct.h
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[3.610s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[3.610s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[3.610s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[3.611s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[3.611s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs
+[3.611s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__rosidl_typesupport_introspection_c.h
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__rosidl_typesupport_introspection_c.h
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__type_support.c
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__type_support.c
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[3.611s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.611s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs
+[3.611s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__type_support.cpp
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__type_support.cpp
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[3.611s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.611s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs
+[3.611s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.611s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[3.611s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.612s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs
+[3.612s] -- Up-to-date: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/dds_fastrtps
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/include/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.612s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[3.612s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/__init__.py
+[3.632s] Compiling '/ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/__init__.py'...
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/msg
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/msg/__init__.py
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/msg/_velodyne_packet.py
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/msg/_velodyne_scan.py
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[3.636s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[3.636s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/python3.6/site-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__python.so
+[3.636s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_msgs/lib/libvelodyne_msgs__python.so" to ""
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[3.640s] Invoked command in '/ROS/velodyne_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_msgs --target install -- -j20 -l20

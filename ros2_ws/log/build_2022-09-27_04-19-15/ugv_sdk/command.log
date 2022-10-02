@@ -1,0 +1,1 @@
+Invoking command in '/ROS/ros2_ws/build/ugv_sdk': /usr/bin/cmake /ROS/ros2_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/ugv_sdk

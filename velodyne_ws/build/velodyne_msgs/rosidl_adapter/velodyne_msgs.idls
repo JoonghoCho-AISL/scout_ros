@@ -1,0 +1,2 @@
+/ROS/velodyne_ws/build/velodyne_msgs/rosidl_adapter/velodyne_msgs:msg/VelodynePacket.idl
+/ROS/velodyne_ws/build/velodyne_msgs/rosidl_adapter/velodyne_msgs:msg/VelodyneScan.idl

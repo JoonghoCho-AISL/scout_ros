@@ -1,0 +1,1 @@
+/ROS/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces/msg/Skeleton3D.msg

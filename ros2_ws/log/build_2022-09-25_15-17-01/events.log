@@ -1,0 +1,1158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (zed_interfaces) JobQueued: {'identifier': 'zed_interfaces', 'dependencies': OrderedDict()}
+[0.000154] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict([('zed_interfaces', '/ROS/ros2_ws/install/zed_interfaces')])}
+[0.000166] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_interfaces', '/ROS/ros2_ws/install/zed_interfaces'), ('zed_components', '/ROS/ros2_ws/install/zed_components')])}
+[0.000174] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_interfaces', '/ROS/ros2_ws/install/zed_interfaces'), ('zed_components', '/ROS/ros2_ws/install/zed_components'), ('zed_wrapper', '/ROS/ros2_ws/install/zed_wrapper')])}
+[0.000184] (zed_interfaces) JobStarted: {'identifier': 'zed_interfaces'}
+[0.005806] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'cmake'}
+[0.005853] (zed_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/ROS/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_interfaces'], 'cwd': '/ROS/ros2_ws/build/zed_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.015140] (zed_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.023540] (zed_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.023607] (zed_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.081991] (zed_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.089528] (zed_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.098447] (zed_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.099287] (-) TimerEvent: {}
+[0.100829] (zed_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.129634] (zed_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.138581] (zed_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.168124] (zed_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.180586] (zed_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.185600] (zed_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.194041] (zed_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.199445] (-) TimerEvent: {}
+[0.210498] (zed_interfaces) StdoutLine: {'line': b'-- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)\n'}
+[0.249388] (zed_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.299618] (-) TimerEvent: {}
+[0.371521] (zed_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.399792] (-) TimerEvent: {}
+[0.473942] (zed_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499986] (-) TimerEvent: {}
+[0.525084] (zed_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.534673] (zed_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.535041] (zed_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.543973] (zed_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.544041] (zed_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.544070] (zed_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.544094] (zed_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.550897] (zed_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.595059] (zed_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.600147] (-) TimerEvent: {}
+[0.637014] (zed_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.638231] (zed_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /ROS/ros2_ws/build/zed_interfaces\n'}
+[0.642569] (zed_interfaces) CommandEnded: {'returncode': 0}
+[0.643057] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'build'}
+[0.643077] (zed_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS/ros2_ws/build/zed_interfaces', '--', '-j20', '-l20'], 'cwd': '/ROS/ros2_ws/build/zed_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.665381] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__cpp\x1b[0m\n'}
+[0.665902] (zed_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.672754] (zed_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.700362] (-) TimerEvent: {}
+[0.800726] (-) TimerEvent: {}
+[0.901068] (-) TimerEvent: {}
+[1.001399] (-) TimerEvent: {}
+[1.101719] (-) TimerEvent: {}
+[1.202045] (-) TimerEvent: {}
+[1.279952] (zed_interfaces) StdoutLine: {'line': b'[  1%] Built target zed_interfaces__cpp\n'}
+[1.287175] (zed_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.287454] (zed_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.287561] (zed_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.302143] (-) TimerEvent: {}
+[1.312732] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.322132] (zed_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/object__functions.c.o\x1b[0m\n'}
+[1.322481] (zed_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/objects_stamped__functions.c.o\x1b[0m\n'}
+[1.322991] (zed_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint3_d__functions.c.o\x1b[0m\n'}
+[1.323896] (zed_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_df__functions.c.o\x1b[0m\n'}
+[1.324139] (zed_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/keypoint2_di__functions.c.o\x1b[0m\n'}
+[1.324729] (zed_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box3_d__functions.c.o\x1b[0m\n'}
+[1.324905] (zed_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_di__functions.c.o\x1b[0m\n'}
+[1.325009] (zed_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton3_d__functions.c.o\x1b[0m\n'}
+[1.325076] (zed_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/bounding_box2_df__functions.c.o\x1b[0m\n'}
+[1.325149] (zed_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/skeleton2_d__functions.c.o\x1b[0m\n'}
+[1.325580] (zed_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/set_pose__functions.c.o\x1b[0m\n'}
+[1.325670] (zed_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/plane_stamped__functions.c.o\x1b[0m\n'}
+[1.325793] (zed_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/msg/detail/depth_info_stamped__functions.c.o\x1b[0m\n'}
+[1.326858] (zed_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zed_interfaces/srv/detail/start_svo_rec__functions.c.o\x1b[0m\n'}
+[1.391048] (zed_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libzed_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.402217] (-) TimerEvent: {}
+[1.412381] (zed_interfaces) StdoutLine: {'line': b'[ 14%] Built target zed_interfaces__rosidl_generator_c\n'}
+[1.418374] (zed_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.418498] (zed_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.502300] (-) TimerEvent: {}
+[1.602502] (-) TimerEvent: {}
+[1.702731] (-) TimerEvent: {}
+[1.802940] (-) TimerEvent: {}
+[1.853549] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.863615] (zed_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/object__type_support.cpp.o\x1b[0m\n'}
+[1.864371] (zed_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[1.865041] (zed_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[1.865295] (zed_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[1.865405] (zed_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[1.865548] (zed_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[1.865668] (zed_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[1.865750] (zed_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[1.865868] (zed_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[1.865982] (zed_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[1.866235] (zed_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[1.866438] (zed_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[1.866654] (zed_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/msg/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[1.866741] (zed_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_interfaces/srv/set_pose__type_support.cpp.o\x1b[0m\n'}
+[1.903057] (-) TimerEvent: {}
+[2.003353] (-) TimerEvent: {}
+[2.015862] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.032245] (zed_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.032459] (zed_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/object__type_support.cpp.o\x1b[0m\n'}
+[2.035063] (zed_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[2.036435] (zed_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[2.089923] (zed_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[2.096739] (zed_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[2.101814] (zed_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[2.103457] (-) TimerEvent: {}
+[2.107724] (zed_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[2.142932] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.153976] (zed_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/object__type_support.cpp.o\x1b[0m\n'}
+[2.159897] (zed_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.161124] (zed_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[2.165445] (zed_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[2.183090] (zed_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[2.185180] (zed_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.186227] (zed_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[2.186782] (zed_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[2.189806] (zed_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.192071] (zed_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/msg/detail/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.192235] (zed_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[2.192293] (zed_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[2.192582] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.196121] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.203561] (-) TimerEvent: {}
+[2.210133] (zed_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[2.212813] (zed_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[2.216852] (zed_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/object__type_support.c.o\x1b[0m\n'}
+[2.217072] (zed_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[2.217199] (zed_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/object__type_support.cpp.o\x1b[0m\n'}
+[2.217451] (zed_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/set_pose__type_support.cpp.o\x1b[0m\n'}
+[2.221512] (zed_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.230439] (zed_interfaces) StdoutLine: {'line': b'[ 47%] Built target zed_interfaces__rosidl_typesupport_cpp\n'}
+[2.237613] (zed_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.247206] (zed_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[2.247412] (zed_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/msg/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.258433] (zed_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/objects_stamped__type_support.c.o\x1b[0m\n'}
+[2.264026] (zed_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_di__type_support.c.o\x1b[0m\n'}
+[2.281466] (zed_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/set_pose__type_support.cpp.o\x1b[0m\n'}
+[2.284844] (zed_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint2_df__type_support.c.o\x1b[0m\n'}
+[2.294665] (zed_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[2.298676] (zed_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[2.299870] (zed_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[2.303675] (-) TimerEvent: {}
+[2.315574] (zed_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/keypoint3_d__type_support.c.o\x1b[0m\n'}
+[2.331196] (zed_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_interfaces/srv/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[2.337325] (zed_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_interfaces/srv/detail/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[2.346033] (zed_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_di__type_support.c.o\x1b[0m\n'}
+[2.351355] (zed_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box2_df__type_support.c.o\x1b[0m\n'}
+[2.353647] (zed_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/bounding_box3_d__type_support.c.o\x1b[0m\n'}
+[2.362477] (zed_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.363186] (zed_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton2_d__type_support.c.o\x1b[0m\n'}
+[2.379839] (zed_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/skeleton3_d__type_support.c.o\x1b[0m\n'}
+[2.387075] (zed_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/set_pose__type_support.c.o\x1b[0m\n'}
+[2.394665] (zed_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/depth_info_stamped__type_support.c.o\x1b[0m\n'}
+[2.398621] (zed_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/msg/detail/plane_stamped__type_support.c.o\x1b[0m\n'}
+[2.403781] (-) TimerEvent: {}
+[2.406088] (zed_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_interfaces/srv/detail/start_svo_rec__type_support.c.o\x1b[0m\n'}
+[2.406367] (zed_interfaces) StdoutLine: {'line': b'[ 64%] Built target zed_interfaces__rosidl_typesupport_c\n'}
+[2.409499] (zed_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[2.412662] (zed_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[2.415711] (zed_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[2.427348] (zed_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[2.440982] (zed_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.441282] (zed_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o\x1b[0m\n'}
+[2.442082] (zed_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.445531] (zed_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libzed_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.457565] (zed_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_interfaces/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[2.502008] (zed_interfaces) StdoutLine: {'line': b'[ 71%] Built target zed_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.503878] (-) TimerEvent: {}
+[2.580287] (zed_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.603999] (-) TimerEvent: {}
+[2.624355] (zed_interfaces) StdoutLine: {'line': b'[ 72%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.704124] (-) TimerEvent: {}
+[2.804435] (-) TimerEvent: {}
+[2.817883] (zed_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.864395] (zed_interfaces) StdoutLine: {'line': b'[ 72%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.869930] (zed_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.904596] (-) TimerEvent: {}
+[3.004846] (-) TimerEvent: {}
+[3.105071] (-) TimerEvent: {}
+[3.205308] (-) TimerEvent: {}
+[3.305539] (-) TimerEvent: {}
+[3.405765] (-) TimerEvent: {}
+[3.446609] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.464770] (zed_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/object__type_support_c.cpp.o\x1b[0m\n'}
+[3.466344] (zed_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/objects_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[3.466642] (zed_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_di__type_support_c.cpp.o\x1b[0m\n'}
+[3.466770] (zed_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint2_df__type_support_c.cpp.o\x1b[0m\n'}
+[3.467980] (zed_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_di__type_support_c.cpp.o\x1b[0m\n'}
+[3.469024] (zed_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton2_d__type_support_c.cpp.o\x1b[0m\n'}
+[3.471994] (zed_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box3_d__type_support_c.cpp.o\x1b[0m\n'}
+[3.472257] (zed_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/set_pose__type_support_c.cpp.o\x1b[0m\n'}
+[3.472372] (zed_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/keypoint3_d__type_support_c.cpp.o\x1b[0m\n'}
+[3.473001] (zed_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/srv/detail/start_svo_rec__type_support_c.cpp.o\x1b[0m\n'}
+[3.473210] (zed_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/bounding_box2_df__type_support_c.cpp.o\x1b[0m\n'}
+[3.474839] (zed_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/depth_info_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[3.476274] (zed_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/plane_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[3.476497] (zed_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_interfaces/msg/detail/skeleton3_d__type_support_c.cpp.o\x1b[0m\n'}
+[3.505874] (-) TimerEvent: {}
+[3.606143] (-) TimerEvent: {}
+[3.706413] (-) TimerEvent: {}
+[3.806708] (-) TimerEvent: {}
+[3.813413] (zed_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libzed_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.858422] (zed_interfaces) StdoutLine: {'line': b'[ 84%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.863383] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces\x1b[0m\n'}
+[3.868783] (zed_interfaces) StdoutLine: {'line': b'[ 84%] Built target zed_interfaces\n'}
+[3.873655] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__py\x1b[0m\n'}
+[3.879714] (zed_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.906773] (-) TimerEvent: {}
+[4.007024] (-) TimerEvent: {}
+[4.107274] (-) TimerEvent: {}
+[4.207522] (-) TimerEvent: {}
+[4.307754] (-) TimerEvent: {}
+[4.407983] (-) TimerEvent: {}
+[4.508219] (-) TimerEvent: {}
+[4.608483] (-) TimerEvent: {}
+[4.708769] (-) TimerEvent: {}
+[4.809041] (-) TimerEvent: {}
+[4.909342] (-) TimerEvent: {}
+[5.009609] (-) TimerEvent: {}
+[5.083230] (zed_interfaces) StdoutLine: {'line': b'[ 85%] Built target zed_interfaces__py\n'}
+[5.087957] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__python\x1b[0m\n'}
+[5.109747] (-) TimerEvent: {}
+[5.111916] (zed_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_object_s.c.o\x1b[0m\n'}
+[5.112934] (zed_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_objects_stamped_s.c.o\x1b[0m\n'}
+[5.113780] (zed_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_di_s.c.o\x1b[0m\n'}
+[5.114430] (zed_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint2_df_s.c.o\x1b[0m\n'}
+[5.115089] (zed_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_keypoint3_d_s.c.o\x1b[0m\n'}
+[5.115669] (zed_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_di_s.c.o\x1b[0m\n'}
+[5.122170] (zed_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_plane_stamped_s.c.o\x1b[0m\n'}
+[5.124064] (zed_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box2_df_s.c.o\x1b[0m\n'}
+[5.124863] (zed_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_bounding_box3_d_s.c.o\x1b[0m\n'}
+[5.125515] (zed_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton2_d_s.c.o\x1b[0m\n'}
+[5.125817] (zed_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_skeleton3_d_s.c.o\x1b[0m\n'}
+[5.125995] (zed_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/msg/_depth_info_stamped_s.c.o\x1b[0m\n'}
+[5.128323] (zed_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/srv/_set_pose_s.c.o\x1b[0m\n'}
+[5.128580] (zed_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__python.dir/rosidl_generator_py/zed_interfaces/srv/_start_svo_rec_s.c.o\x1b[0m\n'}
+[5.209835] (-) TimerEvent: {}
+[5.249940] (zed_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_interfaces/libzed_interfaces__python.so\x1b[0m\n'}
+[5.275161] (zed_interfaces) StdoutLine: {'line': b'[ 96%] Built target zed_interfaces__python\n'}
+[5.280412] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.280720] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.280895] (zed_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.290911] (zed_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.291031] (zed_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.291911] (zed_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.310014] (-) TimerEvent: {}
+[5.410332] (-) TimerEvent: {}
+[5.436909] (zed_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.437081] (zed_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.437119] (zed_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.458301] (zed_interfaces) StdoutLine: {'line': b'[100%] Built target zed_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.458479] (zed_interfaces) StdoutLine: {'line': b'[100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.473668] (zed_interfaces) StdoutLine: {'line': b'[100%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.479819] (zed_interfaces) CommandEnded: {'returncode': 0}
+[5.510599] (-) TimerEvent: {}
+[5.611150] (-) TimerEvent: {}
+[5.712246] (-) TimerEvent: {}
+[5.813035] (-) TimerEvent: {}
+[5.913838] (-) TimerEvent: {}
+[6.014813] (-) TimerEvent: {}
+[6.115666] (-) TimerEvent: {}
+[6.216685] (-) TimerEvent: {}
+[6.309694] (zed_interfaces) JobProgress: {'identifier': 'zed_interfaces', 'progress': 'install'}
+[6.317194] (-) TimerEvent: {}
+[6.336083] (zed_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS/ros2_ws/build/zed_interfaces'], 'cwd': '/ROS/ros2_ws/build/zed_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.350959] (zed_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[6.352107] (zed_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.352386] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces\n'}
+[6.360408] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_df.h\n'}
+[6.376451] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_di.h\n'}
+[6.391459] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box3_d.h\n'}
+[6.403348] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/depth_info_stamped.h\n'}
+[6.413951] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__functions.h\n'}
+[6.417214] (-) TimerEvent: {}
+[6.423376] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__struct.h\n'}
+[6.431867] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__type_support.h\n'}
+[6.439838] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__functions.h\n'}
+[6.447157] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__struct.h\n'}
+[6.454134] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__type_support.h\n'}
+[6.460862] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__functions.h\n'}
+[6.467332] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__struct.h\n'}
+[6.473709] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__type_support.h\n'}
+[6.481993] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__functions.h\n'}
+[6.489851] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__struct.h\n'}
+[6.497202] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__type_support.h\n'}
+[6.505573] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__functions.h\n'}
+[6.517393] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__struct.h\n'}
+[6.517521] (-) TimerEvent: {}
+[6.527284] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__type_support.h\n'}
+[6.539542] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__functions.h\n'}
+[6.550548] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__struct.h\n'}
+[6.560345] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__type_support.h\n'}
+[6.569455] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__functions.h\n'}
+[6.577841] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__struct.h\n'}
+[6.585851] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__type_support.h\n'}
+[6.593312] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__functions.h\n'}
+[6.602014] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__struct.h\n'}
+[6.611155] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__type_support.h\n'}
+[6.617713] (-) TimerEvent: {}
+[6.619553] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__functions.h\n'}
+[6.628397] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__struct.h\n'}
+[6.635033] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__type_support.h\n'}
+[6.642616] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__functions.h\n'}
+[6.649798] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__struct.h\n'}
+[6.657302] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__type_support.h\n'}
+[6.664095] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__functions.h\n'}
+[6.671122] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__struct.h\n'}
+[6.676733] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__type_support.h\n'}
+[6.682455] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__functions.h\n'}
+[6.691554] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__struct.h\n'}
+[6.702016] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__type_support.h\n'}
+[6.711755] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_df.h\n'}
+[6.717891] (-) TimerEvent: {}
+[6.722531] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_di.h\n'}
+[6.733402] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint3_d.h\n'}
+[6.738788] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/object.h\n'}
+[6.743644] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/objects_stamped.h\n'}
+[6.748883] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/plane_stamped.h\n'}
+[6.753763] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.760938] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton2_d.h\n'}
+[6.769666] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton3_d.h\n'}
+[6.777945] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__functions.h\n'}
+[6.786502] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__struct.h\n'}
+[6.794726] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__type_support.h\n'}
+[6.803420] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__functions.h\n'}
+[6.809213] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__struct.h\n'}
+[6.814814] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__type_support.h\n'}
+[6.818054] (-) TimerEvent: {}
+[6.820737] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_pose.h\n'}
+[6.826317] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/start_svo_rec.h\n'}
+[6.835742] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh\n'}
+[6.845512] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv\n'}
+[6.855185] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[6.864520] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[6.872652] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[6.880369] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[6.888855] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[6.897953] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[6.906918] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[6.916570] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[6.918231] (-) TimerEvent: {}
+[6.923138] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[6.928416] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[6.934158] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[6.938218] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[6.941970] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.946077] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[6.949861] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h\n'}
+[6.953754] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.957723] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.961497] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.965174] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.969104] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.973225] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.977547] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.981580] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.986057] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.989877] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.993588] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.997523] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.001198] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.005096] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.008716] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.012318] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.016234] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.018386] (-) TimerEvent: {}
+[7.020197] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h\n'}
+[7.024018] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h\n'}
+[7.027748] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[7.031454] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h\n'}
+[7.035217] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h\n'}
+[7.038976] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h\n'}
+[7.042927] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h\n'}
+[7.046894] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[7.050817] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h\n'}
+[7.054699] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h\n'}
+[7.058899] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h\n'}
+[7.062805] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h\n'}
+[7.067066] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.071069] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[7.075230] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h\n'}
+[7.079722] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_df.hpp\n'}
+[7.084059] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box2_di.hpp\n'}
+[7.088225] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/bounding_box3_d.hpp\n'}
+[7.092480] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/depth_info_stamped.hpp\n'}
+[7.096800] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp\n'}
+[7.101628] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp\n'}
+[7.106063] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp\n'}
+[7.110855] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp\n'}
+[7.115290] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp\n'}
+[7.118550] (-) TimerEvent: {}
+[7.120125] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp\n'}
+[7.124742] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp\n'}
+[7.129562] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp\n'}
+[7.134217] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp\n'}
+[7.139192] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp\n'}
+[7.143939] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp\n'}
+[7.148875] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp\n'}
+[7.153810] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__builder.hpp\n'}
+[7.158931] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__struct.hpp\n'}
+[7.164175] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__traits.hpp\n'}
+[7.172785] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__builder.hpp\n'}
+[7.182556] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__struct.hpp\n'}
+[7.191984] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__traits.hpp\n'}
+[7.207269] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__builder.hpp\n'}
+[7.218745] (-) TimerEvent: {}
+[7.220749] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__struct.hpp\n'}
+[7.234491] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__traits.hpp\n'}
+[7.247772] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__builder.hpp\n'}
+[7.261241] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__struct.hpp\n'}
+[7.268016] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__traits.hpp\n'}
+[7.273915] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__builder.hpp\n'}
+[7.279400] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__struct.hpp\n'}
+[7.285541] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__traits.hpp\n'}
+[7.289559] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__builder.hpp\n'}
+[7.293333] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__struct.hpp\n'}
+[7.297265] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__traits.hpp\n'}
+[7.301168] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__builder.hpp\n'}
+[7.305301] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__struct.hpp\n'}
+[7.308811] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__traits.hpp\n'}
+[7.312471] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__builder.hpp\n'}
+[7.316102] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__struct.hpp\n'}
+[7.318896] (-) TimerEvent: {}
+[7.319882] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__traits.hpp\n'}
+[7.324721] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_df.hpp\n'}
+[7.330141] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint2_di.hpp\n'}
+[7.334383] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/keypoint3_d.hpp\n'}
+[7.338300] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/object.hpp\n'}
+[7.344052] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/objects_stamped.hpp\n'}
+[7.350318] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/plane_stamped.hpp\n'}
+[7.355821] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton2_d.hpp\n'}
+[7.361243] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/skeleton3_d.hpp\n'}
+[7.366859] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__builder.hpp\n'}
+[7.372437] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__struct.hpp\n'}
+[7.378203] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__traits.hpp\n'}
+[7.383853] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__builder.hpp\n'}
+[7.390164] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__struct.hpp\n'}
+[7.396787] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__traits.hpp\n'}
+[7.404389] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/set_pose.hpp\n'}
+[7.411890] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/start_svo_rec.hpp\n'}
+[7.418609] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.418955] (-) TimerEvent: {}
+[7.424745] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.431877] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.437980] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.443710] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.450128] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.454826] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.459145] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.463813] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.468094] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.474945] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.482920] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.491481] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.500407] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/include/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.508614] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh\n'}
+[7.516839] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv\n'}
+[7.519127] (-) TimerEvent: {}
+[7.524492] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/__init__.py\n'}
+[7.532407] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/__init__.py\n'}
+[7.539843] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box2_df.py\n'}
+[7.546652] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box2_di.py\n'}
+[7.552826] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_bounding_box3_d.py\n'}
+[7.558972] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_depth_info_stamped.py\n'}
+[7.564706] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint2_df.py\n'}
+[7.570577] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint2_di.py\n'}
+[7.576085] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_keypoint3_d.py\n'}
+[7.581879] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_object.py\n'}
+[7.587345] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_objects_stamped.py\n'}
+[7.592765] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_plane_stamped.py\n'}
+[7.598272] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_skeleton2_d.py\n'}
+[7.603323] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/msg/_skeleton3_d.py\n'}
+[7.608366] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/__init__.py\n'}
+[7.613592] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_set_pose.py\n'}
+[7.618492] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/srv/_start_svo_rec.py\n'}
+[7.619218] (-) TimerEvent: {}
+[7.623722] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.628619] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.633737] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.639171] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__python.so\n'}
+[7.644632] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.idl\n'}
+[7.649736] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl\n'}
+[7.655047] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl\n'}
+[7.660084] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl\n'}
+[7.665217] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl\n'}
+[7.670270] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl\n'}
+[7.675429] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl\n'}
+[7.680960] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl\n'}
+[7.686633] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl\n'}
+[7.692476] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl\n'}
+[7.698313] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl\n'}
+[7.703892] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl\n'}
+[7.709415] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl\n'}
+[7.714820] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl\n'}
+[7.719393] (-) TimerEvent: {}
+[7.721319] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.msg\n'}
+[7.728306] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg\n'}
+[7.734633] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg\n'}
+[7.741293] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg\n'}
+[7.747909] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg\n'}
+[7.753885] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg\n'}
+[7.760754] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg\n'}
+[7.768995] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg\n'}
+[7.776341] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg\n'}
+[7.783317] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg\n'}
+[7.792186] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg\n'}
+[7.800124] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg\n'}
+[7.807695] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv\n'}
+[7.813608] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg\n'}
+[7.819302] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg\n'}
+[7.819424] (-) TimerEvent: {}
+[7.825386] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv\n'}
+[7.831179] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg\n'}
+[7.837236] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg\n'}
+[7.841554] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl\n'}
+[7.845568] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl\n'}
+[7.849965] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl\n'}
+[7.854046] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl\n'}
+[7.858946] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces\n'}
+[7.863275] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces\n'}
+[7.867396] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh\n'}
+[7.872569] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.877580] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.sh\n'}
+[7.882551] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.dsv\n'}
+[7.887859] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.bash\n'}
+[7.892646] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.sh\n'}
+[7.901124] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.zsh\n'}
+[7.910807] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.dsv\n'}
+[7.919619] (-) TimerEvent: {}
+[7.920329] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv\n'}
+[7.930472] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces\n'}
+[7.939440] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.948334] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.955780] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.964266] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.972063] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.980265] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.987585] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.995056] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake\n'}
+[8.001984] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake\n'}
+[8.009307] (zed_interfaces) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.xml\n'}
+[8.016088] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so\n'}
+[8.016245] (zed_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.016318] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.016412] (zed_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.016473] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so\n'}
+[8.016715] (zed_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.016826] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.017057] (zed_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.017172] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.017262] (zed_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ROS/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.019704] (-) TimerEvent: {}
+[8.035670] (zed_interfaces) StdoutLine: {'line': b"Compiling '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages/zed_interfaces/__init__.py'...\n"}
+[8.037734] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.037807] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[8.037836] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.037866] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[8.038006] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.038067] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[8.038107] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.038134] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.038157] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[8.038185] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.038304] (zed_interfaces) StdoutLine: {'line': b'-- Installing: /ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[8.040048] (zed_interfaces) CommandEnded: {'returncode': 0}
+[8.119952] (-) TimerEvent: {}
+[8.220789] (-) TimerEvent: {}
+[8.321603] (-) TimerEvent: {}
+[8.422413] (-) TimerEvent: {}
+[8.523214] (-) TimerEvent: {}
+[8.624038] (-) TimerEvent: {}
+[8.724891] (-) TimerEvent: {}
+[8.825588] (-) TimerEvent: {}
+[8.828353] (zed_interfaces) JobEnded: {'identifier': 'zed_interfaces', 'rc': 0}
+[8.830885] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[8.835644] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[8.835964] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '/ROS/ros2_ws/src/zed-ros2-wrapper/zed_components', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_components'], 'cwd': '/ROS/ros2_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_components'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[8.878374] (zed_components) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[8.916734] (zed_components) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[8.919034] (zed_components) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[8.925754] (-) TimerEvent: {}
+[8.971198] (zed_components) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.971731] (zed_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.014150] (zed_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.019759] (zed_components) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.020043] (zed_components) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.021596] (zed_components) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[9.025813] (-) TimerEvent: {}
+[9.063602] (zed_components) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[9.064202] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.118096] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.126005] (-) TimerEvent: {}
+[9.130583] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.130942] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.133357] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[9.196904] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[9.198082] (zed_components) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.226203] (-) TimerEvent: {}
+[9.273513] (zed_components) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.273639] (zed_components) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.326280] (-) TimerEvent: {}
+[9.348208] (zed_components) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.348361] (zed_components) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.379316] (zed_components) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.379469] (zed_components) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.414313] (zed_components) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.414929] (zed_components) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.419838] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[9.426488] (-) TimerEvent: {}
+[9.469764] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[9.470071] (zed_components) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  \n'}
+[9.476220] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "11") \n'}
+[9.493948] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "11.4") \n'}
+[9.495286] (zed_components) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[9.506509] (zed_components) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.506635] (zed_components) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.526786] (-) TimerEvent: {}
+[9.563172] (zed_components) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.571287] (zed_components) StdoutLine: {'line': b'-- Found rcutils: 1.1.3 (/opt/ros/foxy/share/rcutils/cmake)\n'}
+[9.573049] (zed_components) StdoutLine: {'line': b'-- Found zed_interfaces: 0.3.0 (/ROS/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake)\n'}
+[9.579813] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.582281] (zed_components) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.613999] (zed_components) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.624751] (zed_components) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.626947] (-) TimerEvent: {}
+[9.655215] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.727101] (-) TimerEvent: {}
+[9.793172] (zed_components) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[9.812855] (zed_components) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.813665] (zed_components) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.827254] (-) TimerEvent: {}
+[9.881329] (zed_components) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[9.910120] (zed_components) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[9.914719] (zed_components) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.927414] (-) TimerEvent: {}
+[10.027628] (-) TimerEvent: {}
+[10.048464] (zed_components) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[10.052000] (zed_components) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[10.053386] (zed_components) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[10.065864] (zed_components) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[10.100983] (zed_components) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.127795] (-) TimerEvent: {}
+[10.136249] (zed_components) StdoutLine: {'line': b'-- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)\n'}
+[10.193390] (zed_components) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[10.207382] (zed_components) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[10.212075] (zed_components) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[10.227974] (-) TimerEvent: {}
+[10.228512] (zed_components) StdoutLine: {'line': b'-- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[10.238074] (zed_components) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[10.290499] (zed_components) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.328131] (-) TimerEvent: {}
+[10.330884] (zed_components) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[10.338225] (zed_components) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.340064] (zed_components) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.340128] (zed_components) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.340158] (zed_components) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[10.340183] (zed_components) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[10.347939] (zed_components) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.351608] (zed_components) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.352257] (zed_components) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.352435] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ROS/ros2_ws/src/zed-ros2-wrapper/zed_components/src/include;/ROS/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/ROS/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include\n'}
+[10.352516] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.353032] (zed_components) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.353093] (zed_components) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.353420] (zed_components) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.353984] (zed_components) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.354051] (zed_components) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.354187] (zed_components) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.357332] (zed_components) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.370567] (zed_components) StdoutLine: {'line': b'-- Generating done\n'}
+[10.371532] (zed_components) StdoutLine: {'line': b'-- Build files have been written to: /ROS/ros2_ws/build/zed_components\n'}
+[10.376332] (zed_components) CommandEnded: {'returncode': 0}
+[10.377429] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'build'}
+[10.377448] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS/ros2_ws/build/zed_components', '--', '-j20', '-l20'], 'cwd': '/ROS/ros2_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_components'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[10.397286] (zed_components) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_camera_component\x1b[0m\n'}
+[10.428241] (-) TimerEvent: {}
+[10.430845] (zed_components) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o\x1b[0m\n'}
+[10.434030] (zed_components) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o\x1b[0m\n'}
+[10.528462] (-) TimerEvent: {}
+[10.628831] (-) TimerEvent: {}
+[10.729197] (-) TimerEvent: {}
+[10.829558] (-) TimerEvent: {}
+[10.929923] (-) TimerEvent: {}
+[11.030288] (-) TimerEvent: {}
+[11.130648] (-) TimerEvent: {}
+[11.231011] (-) TimerEvent: {}
+[11.331382] (-) TimerEvent: {}
+[11.431745] (-) TimerEvent: {}
+[11.532107] (-) TimerEvent: {}
+[11.632472] (-) TimerEvent: {}
+[11.732846] (-) TimerEvent: {}
+[11.833214] (-) TimerEvent: {}
+[11.933572] (-) TimerEvent: {}
+[12.033937] (-) TimerEvent: {}
+[12.134299] (-) TimerEvent: {}
+[12.234664] (-) TimerEvent: {}
+[12.335030] (-) TimerEvent: {}
+[12.435391] (-) TimerEvent: {}
+[12.535757] (-) TimerEvent: {}
+[12.636117] (-) TimerEvent: {}
+[12.736471] (-) TimerEvent: {}
+[12.836842] (-) TimerEvent: {}
+[12.937220] (-) TimerEvent: {}
+[13.037580] (-) TimerEvent: {}
+[13.137947] (-) TimerEvent: {}
+[13.238314] (-) TimerEvent: {}
+[13.338677] (-) TimerEvent: {}
+[13.439041] (-) TimerEvent: {}
+[13.539402] (-) TimerEvent: {}
+[13.639775] (-) TimerEvent: {}
+[13.740133] (-) TimerEvent: {}
+[13.840495] (-) TimerEvent: {}
+[13.940864] (-) TimerEvent: {}
+[14.041238] (-) TimerEvent: {}
+[14.141599] (-) TimerEvent: {}
+[14.241977] (-) TimerEvent: {}
+[14.342339] (-) TimerEvent: {}
+[14.442699] (-) TimerEvent: {}
+[14.543063] (-) TimerEvent: {}
+[14.643422] (-) TimerEvent: {}
+[14.743790] (-) TimerEvent: {}
+[14.844152] (-) TimerEvent: {}
+[14.944531] (-) TimerEvent: {}
+[15.044891] (-) TimerEvent: {}
+[15.145259] (-) TimerEvent: {}
+[15.245626] (-) TimerEvent: {}
+[15.345985] (-) TimerEvent: {}
+[15.446344] (-) TimerEvent: {}
+[15.546702] (-) TimerEvent: {}
+[15.647068] (-) TimerEvent: {}
+[15.747420] (-) TimerEvent: {}
+[15.847788] (-) TimerEvent: {}
+[15.948145] (-) TimerEvent: {}
+[16.048511] (-) TimerEvent: {}
+[16.148883] (-) TimerEvent: {}
+[16.249253] (-) TimerEvent: {}
+[16.349619] (-) TimerEvent: {}
+[16.449985] (-) TimerEvent: {}
+[16.550361] (-) TimerEvent: {}
+[16.650730] (-) TimerEvent: {}
+[16.751094] (-) TimerEvent: {}
+[16.851455] (-) TimerEvent: {}
+[16.951811] (-) TimerEvent: {}
+[17.052154] (-) TimerEvent: {}
+[17.152489] (-) TimerEvent: {}
+[17.252839] (-) TimerEvent: {}
+[17.353176] (-) TimerEvent: {}
+[17.453517] (-) TimerEvent: {}
+[17.553859] (-) TimerEvent: {}
+[17.654209] (-) TimerEvent: {}
+[17.754557] (-) TimerEvent: {}
+[17.854897] (-) TimerEvent: {}
+[17.955244] (-) TimerEvent: {}
+[18.055587] (-) TimerEvent: {}
+[18.155933] (-) TimerEvent: {}
+[18.256283] (-) TimerEvent: {}
+[18.356640] (-) TimerEvent: {}
+[18.456865] (-) TimerEvent: {}
+[18.557214] (-) TimerEvent: {}
+[18.657562] (-) TimerEvent: {}
+[18.757913] (-) TimerEvent: {}
+[18.858268] (-) TimerEvent: {}
+[18.958621] (-) TimerEvent: {}
+[19.058975] (-) TimerEvent: {}
+[19.159326] (-) TimerEvent: {}
+[19.259679] (-) TimerEvent: {}
+[19.360032] (-) TimerEvent: {}
+[19.460383] (-) TimerEvent: {}
+[19.560674] (-) TimerEvent: {}
+[19.660905] (-) TimerEvent: {}
+[19.761168] (-) TimerEvent: {}
+[19.861477] (-) TimerEvent: {}
+[19.961827] (-) TimerEvent: {}
+[20.062184] (-) TimerEvent: {}
+[20.162537] (-) TimerEvent: {}
+[20.262852] (-) TimerEvent: {}
+[20.363196] (-) TimerEvent: {}
+[20.463539] (-) TimerEvent: {}
+[20.563894] (-) TimerEvent: {}
+[20.664249] (-) TimerEvent: {}
+[20.764519] (-) TimerEvent: {}
+[20.864879] (-) TimerEvent: {}
+[20.965247] (-) TimerEvent: {}
+[21.065614] (-) TimerEvent: {}
+[21.166078] (-) TimerEvent: {}
+[21.266395] (-) TimerEvent: {}
+[21.366706] (-) TimerEvent: {}
+[21.467003] (-) TimerEvent: {}
+[21.567315] (-) TimerEvent: {}
+[21.667620] (-) TimerEvent: {}
+[21.767952] (-) TimerEvent: {}
+[21.868272] (-) TimerEvent: {}
+[21.968583] (-) TimerEvent: {}
+[22.068897] (-) TimerEvent: {}
+[22.169134] (-) TimerEvent: {}
+[22.269437] (-) TimerEvent: {}
+[22.369722] (-) TimerEvent: {}
+[22.470033] (-) TimerEvent: {}
+[22.570346] (-) TimerEvent: {}
+[22.670653] (-) TimerEvent: {}
+[22.770941] (-) TimerEvent: {}
+[22.871239] (-) TimerEvent: {}
+[22.971539] (-) TimerEvent: {}
+[23.071830] (-) TimerEvent: {}
+[23.172127] (-) TimerEvent: {}
+[23.272429] (-) TimerEvent: {}
+[23.372726] (-) TimerEvent: {}
+[23.473043] (-) TimerEvent: {}
+[23.573335] (-) TimerEvent: {}
+[23.673661] (-) TimerEvent: {}
+[23.773952] (-) TimerEvent: {}
+[23.874248] (-) TimerEvent: {}
+[23.974575] (-) TimerEvent: {}
+[24.074871] (-) TimerEvent: {}
+[24.175173] (-) TimerEvent: {}
+[24.275473] (-) TimerEvent: {}
+[24.375813] (-) TimerEvent: {}
+[24.476116] (-) TimerEvent: {}
+[24.576421] (-) TimerEvent: {}
+[24.676732] (-) TimerEvent: {}
+[24.777037] (-) TimerEvent: {}
+[24.877339] (-) TimerEvent: {}
+[24.977638] (-) TimerEvent: {}
+[25.077961] (-) TimerEvent: {}
+[25.178252] (-) TimerEvent: {}
+[25.278574] (-) TimerEvent: {}
+[25.378902] (-) TimerEvent: {}
+[25.479204] (-) TimerEvent: {}
+[25.579530] (-) TimerEvent: {}
+[25.679823] (-) TimerEvent: {}
+[25.780123] (-) TimerEvent: {}
+[25.880440] (-) TimerEvent: {}
+[25.980699] (-) TimerEvent: {}
+[26.080903] (-) TimerEvent: {}
+[26.181228] (-) TimerEvent: {}
+[26.281566] (-) TimerEvent: {}
+[26.381917] (-) TimerEvent: {}
+[26.482236] (-) TimerEvent: {}
+[26.582571] (-) TimerEvent: {}
+[26.682900] (-) TimerEvent: {}
+[26.783238] (-) TimerEvent: {}
+[26.883535] (-) TimerEvent: {}
+[26.983872] (-) TimerEvent: {}
+[27.084196] (-) TimerEvent: {}
+[27.184494] (-) TimerEvent: {}
+[27.284817] (-) TimerEvent: {}
+[27.385109] (-) TimerEvent: {}
+[27.485403] (-) TimerEvent: {}
+[27.585721] (-) TimerEvent: {}
+[27.686017] (-) TimerEvent: {}
+[27.786348] (-) TimerEvent: {}
+[27.886664] (-) TimerEvent: {}
+[27.986988] (-) TimerEvent: {}
+[28.087302] (-) TimerEvent: {}
+[28.187598] (-) TimerEvent: {}
+[28.287903] (-) TimerEvent: {}
+[28.388181] (-) TimerEvent: {}
+[28.488465] (-) TimerEvent: {}
+[28.588793] (-) TimerEvent: {}
+[28.675963] (zed_components) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libzed_camera_component.so\x1b[0m\n'}
+[28.689009] (-) TimerEvent: {}
+[28.789351] (-) TimerEvent: {}
+[28.854959] (zed_components) StdoutLine: {'line': b'[100%] Built target zed_camera_component\n'}
+[28.866293] (zed_components) CommandEnded: {'returncode': 0}
+[28.879527] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'install'}
+[28.880803] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS/ros2_ws/build/zed_components'], 'cwd': '/ROS/ros2_ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_components'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[28.885841] (zed_components) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[28.886403] (zed_components) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.886777] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/lib/libzed_camera_component.so\n'}
+[28.889554] (-) TimerEvent: {}
+[28.894866] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/include/zed_components//zed_camera_component.hpp\n'}
+[28.902425] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/include/zed_components//sl_tools.h\n'}
+[28.912087] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/include/zed_components//visibility_control.h\n'}
+[28.923029] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/environment/library_path.sh\n'}
+[28.936642] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/environment/library_path.dsv\n'}
+[28.955580] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components\n'}
+[28.964227] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components\n'}
+[28.975133] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh\n'}
+[28.982426] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv\n'}
+[28.988564] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/environment/path.sh\n'}
+[28.989766] (-) TimerEvent: {}
+[28.995590] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/environment/path.dsv\n'}
+[29.002155] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/local_setup.bash\n'}
+[29.009393] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/local_setup.sh\n'}
+[29.016043] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/local_setup.zsh\n'}
+[29.027763] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/local_setup.dsv\n'}
+[29.044206] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/package.dsv\n'}
+[29.062247] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components\n'}
+[29.077101] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components\n'}
+[29.086322] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.089982] (-) TimerEvent: {}
+[29.095862] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.109424] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.117876] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake\n'}
+[29.122653] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake\n'}
+[29.126859] (zed_components) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_components/share/zed_components/package.xml\n'}
+[29.133076] (zed_components) CommandEnded: {'returncode': 0}
+[29.162645] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 0}
+[29.163134] (zed_wrapper) JobStarted: {'identifier': 'zed_wrapper'}
+[29.168757] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'cmake'}
+[29.168848] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '/ROS/ros2_ws/src/zed-ros2-wrapper/zed_wrapper', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_wrapper'], 'cwd': '/ROS/ros2_ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_wrapper'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[29.190177] (-) TimerEvent: {}
+[29.210625] (zed_wrapper) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[29.258858] (zed_wrapper) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[29.261673] (zed_wrapper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[29.290409] (-) TimerEvent: {}
+[29.319018] (zed_wrapper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[29.319716] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[29.390648] (-) TimerEvent: {}
+[29.391513] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.397634] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[29.397747] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[29.399010] (zed_wrapper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[29.441894] (zed_wrapper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[29.442533] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[29.490862] (-) TimerEvent: {}
+[29.493129] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[29.498998] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[29.499294] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[29.501064] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[29.552782] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[29.554521] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[29.591139] (-) TimerEvent: {}
+[29.661340] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[29.661547] (zed_wrapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[29.691332] (-) TimerEvent: {}
+[29.728475] (zed_wrapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[29.728771] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[29.791572] (-) TimerEvent: {}
+[29.795238] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[29.795971] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[29.891857] (-) TimerEvent: {}
+[29.914387] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[29.915068] (zed_wrapper) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[29.921425] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[29.992022] (-) TimerEvent: {}
+[30.014275] (zed_wrapper) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[30.014477] (zed_wrapper) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  \n'}
+[30.020363] (zed_wrapper) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "11") \n'}
+[30.033765] (zed_wrapper) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "11.4") \n'}
+[30.035060] (zed_wrapper) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[30.049190] (zed_wrapper) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[30.049267] (zed_wrapper) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[30.092185] (-) TimerEvent: {}
+[30.113942] (zed_wrapper) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[30.122530] (zed_wrapper) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[30.138909] (zed_wrapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[30.141453] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[30.171063] (zed_wrapper) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[30.179562] (zed_wrapper) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[30.192351] (-) TimerEvent: {}
+[30.210578] (zed_wrapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.236662] (zed_wrapper) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[30.237538] (zed_wrapper) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[30.292517] (-) TimerEvent: {}
+[30.311045] (zed_wrapper) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[30.339499] (zed_wrapper) StdoutLine: {'line': b'-- Found zed_components: 0.2.0 (/ROS/ros2_ws/install/zed_components/share/zed_components/cmake)\n'}
+[30.392618] (-) TimerEvent: {}
+[30.492801] (-) TimerEvent: {}
+[30.573816] (zed_wrapper) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[30.575225] (zed_wrapper) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[30.592963] (-) TimerEvent: {}
+[30.693181] (-) TimerEvent: {}
+[30.793393] (-) TimerEvent: {}
+[30.893605] (-) TimerEvent: {}
+[30.993819] (-) TimerEvent: {}
+[31.063025] (zed_wrapper) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.078810] (zed_wrapper) StdoutLine: {'line': b'-- Generating done\n'}
+[31.079651] (zed_wrapper) StdoutLine: {'line': b'-- Build files have been written to: /ROS/ros2_ws/build/zed_wrapper\n'}
+[31.083990] (zed_wrapper) CommandEnded: {'returncode': 0}
+[31.084327] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'build'}
+[31.084628] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS/ros2_ws/build/zed_wrapper', '--', '-j20', '-l20'], 'cwd': '/ROS/ros2_ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_wrapper'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[31.093994] (-) TimerEvent: {}
+[31.110001] (zed_wrapper) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target zed_wrapper\x1b[0m\n'}
+[31.145810] (zed_wrapper) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o\x1b[0m\n'}
+[31.194118] (-) TimerEvent: {}
+[31.294469] (-) TimerEvent: {}
+[31.394777] (-) TimerEvent: {}
+[31.495091] (-) TimerEvent: {}
+[31.595408] (-) TimerEvent: {}
+[31.695717] (-) TimerEvent: {}
+[31.748676] (zed_wrapper) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ROS/ros2_ws/install/zed_components/include/zed_components/sl_tools.h:50\x1b[m\x1b[K,\n'}
+[31.748920] (zed_wrapper) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS/ros2_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:28\x1b[m\x1b[K,\n'}
+[31.748954] (zed_wrapper) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS/ros2_ws/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26\x1b[m\x1b[K:\n'}
+[31.748979] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:820:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749006] (zed_wrapper) StderrLine: {'line': b'  820 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749029] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749052] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:973:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749075] (zed_wrapper) StderrLine: {'line': b'  973 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749096] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749120] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1150:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749143] (zed_wrapper) StderrLine: {'line': b' 1150 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749166] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749305] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1314:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749366] (zed_wrapper) StderrLine: {'line': b' 1314 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749394] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749419] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1318:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749447] (zed_wrapper) StderrLine: {'line': b' 1318 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749469] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749491] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1322:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749512] (zed_wrapper) StderrLine: {'line': b' 1322 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749533] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749859] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1562:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.749933] (zed_wrapper) StderrLine: {'line': b' 1562 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.749960] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.749983] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1566:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.750006] (zed_wrapper) StderrLine: {'line': b' 1566 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.750032] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.750053] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1570:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.750075] (zed_wrapper) StderrLine: {'line': b' 1570 |             \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[31.750096] (zed_wrapper) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.751292] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.751357] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2024:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[31.751398] (zed_wrapper) StderrLine: {'line': b' 2024 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[31.751424] (zed_wrapper) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.751570] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1963:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.751608] (zed_wrapper) StderrLine: {'line': b' 1963 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[31.751635] (zed_wrapper) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.751661] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.751683] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2029:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[31.751707] (zed_wrapper) StderrLine: {'line': b' 2029 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[31.751737] (zed_wrapper) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.751761] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1963:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.751785] (zed_wrapper) StderrLine: {'line': b' 1963 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[31.751806] (zed_wrapper) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.751828] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.751855] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2034:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[31.751877] (zed_wrapper) StderrLine: {'line': b' 2034 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[31.751900] (zed_wrapper) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.751922] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1963:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.751944] (zed_wrapper) StderrLine: {'line': b' 1963 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[31.751966] (zed_wrapper) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.751987] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.752009] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2039:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[31.752030] (zed_wrapper) StderrLine: {'line': b' 2039 |         return \x1b[01;35m\x1b[Klhs\x1b[m\x1b[K;\n'}
+[31.752051] (zed_wrapper) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[31.752072] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1963:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.752096] (zed_wrapper) StderrLine: {'line': b' 1963 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[31.752117] (zed_wrapper) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.752138] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp sl::getCurrentTimeStamp()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.752160] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2073:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[31.752182] (zed_wrapper) StderrLine: {'line': b' 2073 |         return \x1b[01;35m\x1b[Kcurrent_ts\x1b[m\x1b[K;\n'}
+[31.752203] (zed_wrapper) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.752223] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:1963:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.752244] (zed_wrapper) StderrLine: {'line': b' 1963 |         Timestamp& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Timestamp other) {\n'}
+[31.752264] (zed_wrapper) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[31.752285] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.752308] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2079:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfile\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[31.752330] (zed_wrapper) StderrLine: {'line': b' 2079 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, \x1b[01;35m\x1b[Kconst char *file\x1b[m\x1b[K, const int line) {\n'}
+[31.752351] (zed_wrapper) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[31.752372] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:2079:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[31.752394] (zed_wrapper) StderrLine: {'line': b' 2079 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, \x1b[01;35m\x1b[Kconst int line\x1b[m\x1b[K) {\n'}
+[31.752414] (zed_wrapper) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[31.783511] (zed_wrapper) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ROS/ros2_ws/install/zed_components/include/zed_components/sl_tools.h:50\x1b[m\x1b[K,\n'}
+[31.783595] (zed_wrapper) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS/ros2_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:28\x1b[m\x1b[K,\n'}
+[31.783624] (zed_wrapper) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS/ros2_ws/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26\x1b[m\x1b[K:\n'}
+[31.783647] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:\x1b[m\x1b[K At global scope:\n'}
+[31.783670] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:5399:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[31.783694] (zed_wrapper) StderrLine: {'line': b' 5399 |     inline \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {\n'}
+[31.783721] (zed_wrapper) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[31.784803] (zed_wrapper) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/zed/include/sl/Camera.hpp:5791:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[31.784863] (zed_wrapper) StderrLine: {'line': b' 5791 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[31.784891] (zed_wrapper) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[31.795873] (-) TimerEvent: {}
+[31.896141] (-) TimerEvent: {}
+[31.996456] (-) TimerEvent: {}
+[32.096771] (-) TimerEvent: {}
+[32.197085] (-) TimerEvent: {}
+[32.297394] (-) TimerEvent: {}
+[32.397712] (-) TimerEvent: {}
+[32.498027] (-) TimerEvent: {}
+[32.598332] (-) TimerEvent: {}
+[32.630698] (zed_wrapper) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable zed_wrapper\x1b[0m\n'}
+[32.698518] (-) TimerEvent: {}
+[32.739830] (zed_wrapper) StdoutLine: {'line': b'[100%] Built target zed_wrapper\n'}
+[32.751026] (zed_wrapper) CommandEnded: {'returncode': 0}
+[32.763402] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'install'}
+[32.764778] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS/ros2_ws/build/zed_wrapper'], 'cwd': '/ROS/ros2_ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_wrapper'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[32.772187] (zed_wrapper) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[32.772696] (zed_wrapper) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[32.773261] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper\n'}
+[32.783794] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml\n'}
+[32.798416] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml\n'}
+[32.798587] (-) TimerEvent: {}
+[32.811430] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml\n'}
+[32.822801] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml\n'}
+[32.832973] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml\n'}
+[32.842438] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro\n'}
+[32.851172] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro\n'}
+[32.859343] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro\n'}
+[32.867386] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/include/zed_camera.launch.py\n'}
+[32.874964] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed.launch.py\n'}
+[32.882010] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2.launch.py\n'}
+[32.888769] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2i.launch.py\n'}
+[32.895157] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zedm.launch.py\n'}
+[32.898761] (-) TimerEvent: {}
+[32.901590] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper\n'}
+[32.907827] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper\n'}
+[32.913758] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh\n'}
+[32.920317] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv\n'}
+[32.926148] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh\n'}
+[32.932795] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv\n'}
+[32.943889] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash\n'}
+[32.950644] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh\n'}
+[32.957259] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh\n'}
+[32.964781] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv\n'}
+[32.972215] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv\n'}
+[32.984154] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper\n'}
+[32.994966] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake\n'}
+[32.998951] (-) TimerEvent: {}
+[33.004722] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake\n'}
+[33.012455] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml\n'}
+[33.028799] (zed_wrapper) CommandEnded: {'returncode': 0}
+[33.105132] (-) TimerEvent: {}
+[33.114298] (zed_wrapper) JobEnded: {'identifier': 'zed_wrapper', 'rc': 0}
+[33.115093] (zed_ros2) JobStarted: {'identifier': 'zed_ros2'}
+[33.119677] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'cmake'}
+[33.119886] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '/ROS/ros2_ws/src/zed-ros2-wrapper/zed_ros2', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_ros2'], 'cwd': '/ROS/ros2_ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[33.129924] (zed_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[33.147872] (zed_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[33.148069] (zed_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[33.205270] (-) TimerEvent: {}
+[33.218926] (zed_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[33.259361] (zed_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[33.260124] (zed_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[33.260210] (zed_ros2) StdoutLine: {'line': b'-- Build files have been written to: /ROS/ros2_ws/build/zed_ros2\n'}
+[33.262676] (zed_ros2) CommandEnded: {'returncode': 0}
+[33.263123] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'build'}
+[33.263142] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS/ros2_ws/build/zed_ros2', '--', '-j20', '-l20'], 'cwd': '/ROS/ros2_ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[33.282088] (zed_ros2) CommandEnded: {'returncode': 0}
+[33.291944] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'install'}
+[33.292059] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS/ros2_ws/build/zed_ros2'], 'cwd': '/ROS/ros2_ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.6.1.51-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-4'), ('HOSTNAME', 'GE76'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.11.4-1'), ('HOME', '/root'), ('OLDPWD', '/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_VERSION', '11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.11.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-4=11.4.0.110-1'), ('CUDA_VERSION', '11.4.2'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-4'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.4 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=460,driver<461'), ('_', '/usr/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.6.0.120-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,compat32,utility,compute,video,utility,graphics'), ('NV_CUDA_LIB_VERSION', '11.4.2-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.4.120-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-4=11.4.0.110-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.4.108-1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-4'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-4=11.6.1.51-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.6.0.120-1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.11.4-1+cuda11.4'), ('LANG', 'C.UTF-8'), ('NV_CUDA_CUDART_DEV_VERSION', '11.4.108-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-4=11.6.1.51-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.11.4-1+cuda11.4'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.4.120-1'), ('NV_LIBNPP_VERSION', '11.4.0.110-1'), ('PWD', '/ROS/ros2_ws/build/zed_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.11.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.4.0.110-1'), ('ROS2_WS', '/opt/ros2_ws'), ('CMAKE_PREFIX_PATH', '/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy')]), 'shell': False}
+[33.296528] (zed_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[33.296821] (zed_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.297072] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2\n'}
+[33.304861] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2\n'}
+[33.305367] (-) TimerEvent: {}
+[33.312870] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh\n'}
+[33.320450] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv\n'}
+[33.329480] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.sh\n'}
+[33.338052] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.dsv\n'}
+[33.346449] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.bash\n'}
+[33.354248] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.sh\n'}
+[33.365536] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.zsh\n'}
+[33.380854] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.dsv\n'}
+[33.395216] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/package.dsv\n'}
+[33.405584] (-) TimerEvent: {}
+[33.408797] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2\n'}
+[33.420749] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake\n'}
+[33.434160] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake\n'}
+[33.446591] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/package.xml\n'}
+[33.467025] (zed_ros2) CommandEnded: {'returncode': 0}
+[33.507322] (-) TimerEvent: {}
+[33.520214] (zed_ros2) JobEnded: {'identifier': 'zed_ros2', 'rc': 0}
+[33.520805] (-) EventReactorShutdown: {}

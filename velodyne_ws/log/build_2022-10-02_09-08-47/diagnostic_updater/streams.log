@@ -1,0 +1,112 @@
+[0.020s] Invoking command in '/ROS/velodyne_ws/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake /ROS/velodyne_ws/src/diagnostics/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/ROS/velodyne_ws/install/diagnostic_updater
+[0.054s] -- The C compiler identification is GNU 7.5.0
+[0.089s] -- The CXX compiler identification is GNU 7.5.0
+[0.092s] -- Check for working C compiler: /usr/bin/cc
+[0.133s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.133s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.176s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.349s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Detecting CXX compile features
+[0.603s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.622s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.622s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.719s] -- Found diagnostic_msgs: 0.7.1 (/opt/ros/dashing/share/diagnostic_msgs/cmake)
+[0.729s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.753s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.761s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.762s] -- Looking for pthread.h
+[0.805s] -- Looking for pthread.h - found
+[0.806s] -- Looking for pthread_create
+[0.848s] -- Looking for pthread_create - not found
+[0.848s] -- Looking for pthread_create in pthreads
+[0.884s] -- Looking for pthread_create in pthreads - not found
+[0.884s] -- Looking for pthread_create in pthread
+[0.926s] -- Looking for pthread_create in pthread - found
+[0.927s] -- Found Threads: TRUE  
+[0.945s] -- Found rclpy: 0.7.11 (/opt/ros/dashing/share/rclpy/cmake)
+[0.955s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.025s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.026s] -- Check if compiler accepts -pthread
+[1.071s] -- Check if compiler accepts -pthread - yes
+[1.381s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.381s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS/velodyne_ws/src/diagnostics/diagnostic_updater/include>
+[1.382s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.383s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.385s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.386s] -- Added test 'uncrustify' to check C / C++ code style
+[1.387s] -- Added test 'xmllint' to check XML markup files
+[1.390s] -- Configuring done
+[1.401s] -- Generating done
+[1.402s] -- Build files have been written to: /ROS/velodyne_ws/build/diagnostic_updater
+[1.405s] Invoked command in '/ROS/velodyne_ws/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake /ROS/velodyne_ws/src/diagnostics/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/ROS/velodyne_ws/install/diagnostic_updater
+[1.406s] Invoking command in '/ROS/velodyne_ws/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/diagnostic_updater -- -j20 -l20
+[1.431s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.431s] [35m[1mScanning dependencies of target gtest[0m
+[1.433s] [35m[1mScanning dependencies of target example[0m
+[1.441s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.450s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.454s] [ 37%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[1.750s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.771s] [ 50%] Built target gtest_main
+[2.990s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.022s] [ 62%] Built target gtest
+[3.030s] [35m[1mScanning dependencies of target diagnostic_updater_test[0m
+[3.040s] [ 75%] [32m[1mLinking CXX executable example[0m
+[3.054s] [ 87%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[3.139s] [ 87%] Built target example
+[4.614s] [100%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[4.756s] [100%] Built target diagnostic_updater_test
+[4.767s] Invoked command in '/ROS/velodyne_ws/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/diagnostic_updater -- -j20 -l20
+[4.797s] Invoking command in '/ROS/velodyne_ws/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/diagnostic_updater --target install -- -j20 -l20
+[4.835s] [ 50%] Built target gtest_main
+[4.835s] [ 50%] Built target gtest
+[4.837s] [ 75%] Built target example
+[4.855s] [100%] Built target diagnostic_updater_test
+[4.868s] [36mInstall the project...[0m
+[4.874s] -- Install configuration: ""
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py
+[4.874s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py
+[4.898s] Listing '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater'...
+[4.898s] Compiling '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py'...
+[4.898s] Compiling '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+[4.898s] Compiling '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py'...
+[4.898s] Compiling '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py'...
+[4.898s] Compiling '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py'...
+[4.898s] Compiling '/ROS/velodyne_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py'...
+[4.900s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/diagnostic_updater/example.py
+[4.900s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/lib/diagnostic_updater/example
+[4.901s] -- Set runtime path of "/ROS/velodyne_ws/install/diagnostic_updater/lib/diagnostic_updater/example" to ""
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/include
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/include/diagnostic_updater
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+[4.902s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+[4.903s] -- Installing: /ROS/velodyne_ws/install/diagnostic_updater/share/diagnostic_updater/package.xml
+[4.906s] Invoked command in '/ROS/velodyne_ws/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/diagnostic_updater --target install -- -j20 -l20

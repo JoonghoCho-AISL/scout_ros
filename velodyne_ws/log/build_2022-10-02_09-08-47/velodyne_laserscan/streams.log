@@ -1,0 +1,87 @@
+[0.012s] Invoking command in '/ROS/velodyne_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake /ROS/velodyne_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/ROS/velodyne_ws/install/velodyne_laserscan
+[0.046s] -- The C compiler identification is GNU 7.5.0
+[0.081s] -- The CXX compiler identification is GNU 7.5.0
+[0.084s] -- Check for working C compiler: /usr/bin/cc
+[0.124s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.124s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.170s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.345s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.393s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.595s] -- Found ament_cmake_ros: 0.7.0 (/opt/ros/dashing/share/ament_cmake_ros/cmake)
+[0.612s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.613s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.713s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.726s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.748s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.750s] -- Looking for pthread.h
+[0.792s] -- Looking for pthread.h - found
+[0.792s] -- Looking for pthread_create
+[0.835s] -- Looking for pthread_create - not found
+[0.835s] -- Looking for pthread_create in pthreads
+[0.870s] -- Looking for pthread_create in pthreads - not found
+[0.871s] -- Looking for pthread_create in pthread
+[0.912s] -- Looking for pthread_create in pthread - found
+[0.913s] -- Found Threads: TRUE  
+[0.931s] -- Found rclcpp_components: 0.7.16 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[0.933s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[0.942s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.975s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.023s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.023s] -- Configured cppcheck include dirs: /ROS/velodyne_ws/src/velodyne/velodyne_laserscan/include
+[1.024s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.025s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.026s] -- Added test 'lint_cmake' to check CMake code style
+[1.027s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.028s] -- Added test 'uncrustify' to check C / C++ code style
+[1.029s] -- Added test 'xmllint' to check XML markup files
+[1.032s] -- Configuring done
+[1.043s] -- Generating done
+[1.044s] -- Build files have been written to: /ROS/velodyne_ws/build/velodyne_laserscan
+[1.046s] Invoked command in '/ROS/velodyne_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake /ROS/velodyne_ws/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/ROS/velodyne_ws/install/velodyne_laserscan
+[1.048s] Invoking command in '/ROS/velodyne_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_laserscan -- -j20 -l20
+[1.073s] [35m[1mScanning dependencies of target velodyne_laserscan[0m
+[1.093s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[2.713s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[2.819s] [ 50%] Built target velodyne_laserscan
+[2.825s] [35m[1mScanning dependencies of target velodyne_laserscan_node[0m
+[2.845s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[3.450s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[3.534s] [100%] Built target velodyne_laserscan_node
+[3.541s] Invoked command in '/ROS/velodyne_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_laserscan -- -j20 -l20
+[3.562s] Invoking command in '/ROS/velodyne_ws/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_laserscan --target install -- -j20 -l20
+[3.599s] [ 50%] Built target velodyne_laserscan
+[3.617s] [100%] Built target velodyne_laserscan_node
+[3.629s] [36mInstall the project...[0m
+[3.635s] -- Install configuration: ""
+[3.635s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[3.636s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[3.636s] -- Set runtime path of "/ROS/velodyne_ws/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node" to ""
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/include/velodyne_laserscan
+[3.636s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/config
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[3.637s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[3.638s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[3.638s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[3.638s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[3.638s] -- Installing: /ROS/velodyne_ws/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[3.652s] Invoked command in '/ROS/velodyne_ws/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/velodyne_ws/install/ament_uncrustify:/ROS/velodyne_ws/install/launch_testing:/ROS/velodyne_ws/install/launch:/ROS/velodyne_ws/install/osrf_pycommon:/ROS/velodyne_ws/install/ament_xmllint:/ROS/velodyne_ws/install/ament_pyflakes:/ROS/velodyne_ws/install/ament_pep8:/ROS/velodyne_ws/install/ament_pep257:/ROS/velodyne_ws/install/ament_pclint:/ROS/velodyne_ws/install/ament_package:/ROS/velodyne_ws/install/ament_lint_cmake:/ROS/velodyne_ws/install/ament_flake8:/ROS/velodyne_ws/install/ament_copyright:/ROS/velodyne_ws/install/ament_lint:/ROS/velodyne_ws/install/ament_index_python:/ROS/velodyne_ws/install/ament_cpplint:/ROS/velodyne_ws/install/ament_cppcheck:/ROS/velodyne_ws/install/ament_clang_tidy:/ROS/velodyne_ws/install/ament_clang_format:/ROS/velodyne_ws/install/send_mobius:/opt/ros/dashing /usr/bin/cmake --build /ROS/velodyne_ws/build/velodyne_laserscan --target install -- -j20 -l20

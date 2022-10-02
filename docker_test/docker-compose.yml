@@ -1,0 +1,98 @@
+version: '3.7'
+services:
+  vnc:
+    container_name: net_ros2_vnc
+    image: joongho1234/net_ros2_vnc:v3
+    ports:
+      - "6080:80"
+    network_mode: ros2net
+    # network_mode: host
+    volumes:
+      - /home/joongho/ROS/:/ROS/
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+  zed:
+    container_name: net_ros2_zed
+    # build :
+    image: joongho1234/net_ros2_zed:v3
+    volumes:
+      - /home/joongho/ROS/:/ROS/
+      # - /tmp/.X11-unix:/tmp/.X11-unix
+    privileged: true
+    runtime: nvidia
+    network_mode: ros2net
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    stdin_open: true
+    tty: true
+    depends_on:
+      - vnc
+  scout:
+    container_name: net_ros1_scout
+    image: joongho1234/net_ros1_scout:v3
+    privileged: true
+    volumes:
+      - /home/joongho/ROS/:/ROS/
+    stdin_open: true
+    tty: true
+    network_mode: ros2net
+    # network_mode: host
+    depends_on:
+      - zed
+
+  rosbridge:
+    container_name: net_ros1_bridge
+    image: joongho1234/net_ros1_bridge:v3
+    privileged: true
+    network_mode: ros2net
+    depends_on:
+      - scout
+    # entrypoint: /bin/bash
+    # command: source "/opt/ros/foxy/setup.bash" && ros2 run ros1_bridge dynamic_bridge
+    stdin_open: true
+    tty: true
+
+  lidar:
+    container_name: net_ros2_lidar
+    image: joongho1234/net_ros2_lidar:v3
+    privileged: true
+    network_mode: ros2net
+    depends_on:
+      - rosbridge
+    volumes:
+      - /home/joongho/ROS:/ROS
+    stdin_open: true
+    
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # ncube:
+  #   container_name: ncube
+  #   image: 7zjatl7/ncube:v2
+  #   network_mode: ros2net
+  #   volumes:
+  #     - /home/joongho/ROS/ncube:/home/ubuntu/
+  #   depends_on:
+  #     - vnc
+  #   stdin_open: true
+  #   tty: true
+networks:
+    ros2net:
+        driver: bridge
+

@@ -1,0 +1,2 @@
+Invoking command in '/ROS/ros2_ws/build/zed_interfaces': /usr/bin/cmake /ROS/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_interfaces
+Invoked command in '/ROS/ros2_ws/build/zed_interfaces' returned '1': /usr/bin/cmake /ROS/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_interfaces

@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/ROS/ros2_ws/build/zed_ros2': AMENT_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /ROS/ros2_ws/src/zed-ros2-wrapper/zed_ros2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_ros2
+[0.015s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.033s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.033s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.104s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.144s] -- Configuring done
+[0.145s] -- Generating done
+[0.145s] -- Build files have been written to: /ROS/ros2_ws/build/zed_ros2
+[0.148s] Invoked command in '/ROS/ros2_ws/build/zed_ros2' returned '0': AMENT_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /ROS/ros2_ws/src/zed-ros2-wrapper/zed_ros2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_ros2
+[0.148s] Invoking command in '/ROS/ros2_ws/build/zed_ros2': AMENT_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ROS/ros2_ws/build/zed_ros2 -- -j20 -l20
+[0.167s] Invoked command in '/ROS/ros2_ws/build/zed_ros2' returned '0': AMENT_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ROS/ros2_ws/build/zed_ros2 -- -j20 -l20
+[0.177s] Invoking command in '/ROS/ros2_ws/build/zed_ros2': AMENT_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ROS/ros2_ws/build/zed_ros2
+[0.182s] -- Install configuration: "Release"
+[0.182s] -- Execute custom install script
+[0.182s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2
+[0.190s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2
+[0.198s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh
+[0.206s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv
+[0.214s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.sh
+[0.223s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.dsv
+[0.231s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.bash
+[0.239s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.sh
+[0.251s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.zsh
+[0.266s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.dsv
+[0.280s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/package.dsv
+[0.294s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2
+[0.306s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake
+[0.319s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake
+[0.332s] -- Symlinking: /ROS/ros2_ws/install/zed_ros2/share/zed_ros2/package.xml
+[0.352s] Invoked command in '/ROS/ros2_ws/build/zed_ros2' returned '0': AMENT_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ROS/ros2_ws/build/zed_ros2

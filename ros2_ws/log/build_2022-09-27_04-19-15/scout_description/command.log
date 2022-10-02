@@ -1,0 +1,2 @@
+Invoking command in '/ROS/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /ROS/ros2_ws/src/scout_ros2/scout_description -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/scout_description
+Invoked command in '/ROS/ros2_ws/build/scout_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /ROS/ros2_ws/src/scout_ros2/scout_description -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/scout_description

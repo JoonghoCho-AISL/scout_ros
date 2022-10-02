@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/ROS/zed_ws/build/vectornav': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/vectornav:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/vectornav_msgs/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages:/ROS/zed_ws/install/zed_interfaces/lib/python3.8/site-packages:/ROS/zed_ws/build/send_mobius:/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages:/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /ROS/zed_ws/build/vectornav -- -j20 -l20
+[0.040s] [ 85%] Built target vncxx
+[0.051s] [ 92%] Built target vn_sensor_msgs
+[0.062s] [100%] Built target vectornav
+[0.068s] Invoked command in '/ROS/zed_ws/build/vectornav' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/vectornav:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/vectornav_msgs/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages:/ROS/zed_ws/install/zed_interfaces/lib/python3.8/site-packages:/ROS/zed_ws/build/send_mobius:/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages:/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /ROS/zed_ws/build/vectornav -- -j20 -l20
+[0.088s] Invoking command in '/ROS/zed_ws/build/vectornav': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/vectornav:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/vectornav_msgs/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages:/ROS/zed_ws/install/zed_interfaces/lib/python3.8/site-packages:/ROS/zed_ws/build/send_mobius:/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages:/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /ROS/zed_ws/build/vectornav
+[0.092s] -- Install configuration: "Release"
+[0.092s] -- Execute custom install script
+[0.092s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/lib/libvncxx.so
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/attitude.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/boostpython.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/compiler.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/compositedata.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/consts.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/conversions.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/criticalsection.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/dllvalidator.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/error_detection.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/event.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/exceptions.h
+[0.093s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/export.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/ezasyncdata.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/int.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/matrix.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/memoryport.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/mock.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/nocopy.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/packet.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/packetfinder.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/port.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/position.h
+[0.094s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/registers.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/rtcmlistener.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/rtcmmessage.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/searcher.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/sensors.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/serialport.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/signal.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/thread.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/types.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/util.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/utilities.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/vector.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/include/vn/vntime.h
+[0.095s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/lib/vectornav/vectornav
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/lib/vectornav/vn_sensor_msgs
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav//config/vectornav.yaml
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav//config/vn_100_800hz.yaml
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav//launch/vectornav.launch.py
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/ament_index/resource_index/package_run_dependencies/vectornav
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/ament_index/resource_index/parent_prefix_path/vectornav
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/environment/path.sh
+[0.097s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/environment/path.dsv
+[0.097s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/local_setup.bash
+[0.097s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/local_setup.sh
+[0.097s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/local_setup.zsh
+[0.097s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/local_setup.dsv
+[0.097s] -- Symlinking: /ROS/zed_ws/install/vectornav/share/vectornav/package.dsv
+[0.104s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/ament_index/resource_index/packages/vectornav
+[0.104s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.105s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/cmake/vectornavConfig.cmake
+[0.105s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/cmake/vectornavConfig-version.cmake
+[0.105s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav/share/vectornav/package.xml
+[0.113s] Invoked command in '/ROS/zed_ws/build/vectornav' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/vectornav:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/vectornav_msgs/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/ros2_ws/install/zed_components/lib:/ROS/ros2_ws/install/zed_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages:/ROS/zed_ws/install/zed_interfaces/lib/python3.8/site-packages:/ROS/zed_ws/build/send_mobius:/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages:/ROS/ros2_ws/install/zed_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /ROS/zed_ws/build/vectornav

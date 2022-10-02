@@ -1,0 +1,53 @@
+[0.015s] Invoking command in '/ROS/ros2_ws/build/ugv_sdk': /usr/bin/cmake --build /ROS/ros2_ws/build/ugv_sdk -- -j20 -l20
+[0.042s] [  8%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[0.042s] [  8%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[0.042s] [ 12%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[0.043s] [ 16%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[0.043s] [ 20%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[0.046s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[0.068s] In file included from [01m[K/ROS/ros2_ws/src/ugv_sdk/src/async_port/async_serial.cpp:10[m[K:
+[0.068s] [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.068s]    20 | #include [01;31m[K"asio.hpp"[m[K
+[0.068s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.068s] compilation terminated.
+[0.068s] In file included from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp:15[m[K,
+[0.069s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp:10[m[K:
+[0.069s] [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.069s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.069s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.069s] compilation terminated.
+[0.069s] In file included from [01m[K/ROS/ros2_ws/src/ugv_sdk/src/async_port/async_can.cpp:10[m[K:
+[0.069s] [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.069s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.069s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.069s] compilation terminated.
+[0.069s] make[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:63: CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o] Error 1
+[0.069s] make[2]: *** Waiting for unfinished jobs....
+[0.069s] make[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:89: CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o] Error 1
+[0.069s] make[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:76: CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o] Error 1
+[0.072s] In file included from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:20[m[K,
+[0.072s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp:19[m[K,
+[0.072s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp:11[m[K:
+[0.072s] [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.072s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.072s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.072s] compilation terminated.
+[0.073s] In file included from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:20[m[K,
+[0.073s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp:19[m[K,
+[0.073s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp:11[m[K:
+[0.073s] [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.073s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.073s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.073s] compilation terminated.
+[0.073s] make[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:115: CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o] Error 1
+[0.073s] make[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:102: CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o] Error 1
+[0.083s] In file included from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp:20[m[K,
+[0.083s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp:19[m[K,
+[0.083s]                  from [01m[K/ROS/ros2_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp:11[m[K:
+[0.083s] [01m[K/ROS/ros2_ws/src/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.083s]    24 | #include [01;31m[K"asio.hpp"[m[K
+[0.083s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.083s] compilation terminated.
+[0.084s] make[2]: *** [CMakeFiles/ugv_sdk.dir/build.make:128: CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o] Error 1
+[0.084s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/ugv_sdk.dir/all] Error 2
+[0.084s] make: *** [Makefile:152: all] Error 2

@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/ROS/zed_ws/build/zed_interfaces': /usr/bin/cmake --build /ROS/zed_ws/build/zed_interfaces -- -j20 -l20
+[0.109s] [  0%] Built target zed_interfaces__cpp
+[0.109s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[0.109s] [ 24%] Built target zed_interfaces__rosidl_typesupport_cpp
+[0.109s] [ 36%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[0.109s] [ 48%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[0.109s] [ 60%] Built target zed_interfaces__rosidl_typesupport_c
+[0.109s] make[2]: *** No rule to make target '/opt/ros/foxy/lib/libfastrtps.so.2.1.2', needed by 'libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so'.  Stop.
+[0.109s] make[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/zed_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.109s] make[1]: *** Waiting for unfinished jobs....
+[0.110s] make: *** [Makefile:141: all] Error 2
+[0.114s] Invoked command in '/ROS/zed_ws/build/zed_interfaces' returned '2': /usr/bin/cmake --build /ROS/zed_ws/build/zed_interfaces -- -j20 -l20

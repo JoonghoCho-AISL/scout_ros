@@ -1,0 +1,240 @@
+[0.016s] Invoking command in '/ROS/zed_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/vectornav_msgs -- -j20 -l20
+[0.047s] [  0%] Built target vectornav_msgs__cpp
+[0.051s] [ 12%] Built target vectornav_msgs__rosidl_generator_c
+[0.066s] [ 24%] Built target vectornav_msgs__rosidl_typesupport_cpp
+[0.067s] [ 47%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp
+[0.068s] [ 48%] Built target vectornav_msgs__rosidl_typesupport_introspection_c
+[0.070s] [ 60%] Built target vectornav_msgs__rosidl_typesupport_c
+[0.073s] [ 71%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp
+[0.092s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c
+[0.104s] [ 83%] Built target vectornav_msgs
+[0.117s] [ 84%] Built target vectornav_msgs__py
+[0.139s] [ 95%] Built target vectornav_msgs__python
+[0.158s] [ 98%] Built target vectornav_msgs__rosidl_typesupport_c__pyext
+[0.158s] [ 98%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext
+[0.163s] [100%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.171s] Invoked command in '/ROS/zed_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/vectornav_msgs -- -j20 -l20
+[0.287s] Invoking command in '/ROS/zed_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/vectornav_msgs
+[0.292s] -- Install configuration: "Release"
+[0.292s] -- Execute custom install script
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/attitude_group.h
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/common_group.h
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__functions.h
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__struct.h
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__type_support.h
+[0.293s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__functions.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__struct.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__type_support.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__functions.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__struct.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__type_support.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__functions.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__struct.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__type_support.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__functions.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__struct.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__type_support.h
+[0.294s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__functions.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__struct.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__type_support.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__functions.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__struct.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__type_support.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__functions.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__struct.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__type_support.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__functions.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__struct.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__type_support.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__functions.h
+[0.295s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__struct.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__type_support.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__functions.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__struct.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__type_support.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/dop.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/gps_group.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/imu_group.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_group.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_status.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_group.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_status.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_utc.h
+[0.296s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/vpe_status.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h
+[0.297s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h
+[0.298s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h
+[0.298s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h
+[0.298s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.298s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so
+[0.300s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp
+[0.300s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp
+[0.300s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp
+[0.301s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp
+[0.301s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp
+[0.301s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp
+[0.301s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/attitude_group.hpp
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/common_group.hpp
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__builder.hpp
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__struct.hpp
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__traits.hpp
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__builder.hpp
+[0.303s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__struct.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__traits.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__builder.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__struct.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__traits.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__builder.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__struct.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__traits.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__builder.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__struct.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__traits.hpp
+[0.304s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__builder.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__struct.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__traits.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__builder.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__struct.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__traits.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__builder.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__struct.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__traits.hpp
+[0.305s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__builder.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__struct.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__traits.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__builder.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__struct.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__traits.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__builder.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__struct.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__traits.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/dop.hpp
+[0.306s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/gps_group.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/imu_group.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_group.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_status.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_group.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_status.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_utc.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/vpe_status.hpp
+[0.307s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh
+[0.308s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/__init__.py
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group.py
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group.py
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop.py
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group.py
+[0.309s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status.py
+[0.310s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.311s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.311s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.311s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__python.so
+[0.312s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl
+[0.312s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl
+[0.312s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl
+[0.312s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl
+[0.312s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl
+[0.312s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl
+[0.313s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl
+[0.313s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl
+[0.313s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl
+[0.313s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg
+[0.314s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg
+[0.315s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg
+[0.315s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg
+[0.315s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg
+[0.315s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg
+[0.315s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg
+[0.316s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs
+[0.316s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs
+[0.316s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh
+[0.316s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv
+[0.316s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh
+[0.316s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv
+[0.317s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash
+[0.317s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh
+[0.317s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh
+[0.317s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv
+[0.317s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv
+[0.321s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake
+[0.322s] -- Up-to-date symlink: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/package.xml
+[0.322s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so
+[0.323s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so
+[0.323s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so
+[0.323s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so
+[0.323s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cExport.cmake
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cExport-release.cmake
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-release.cmake
+[0.339s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cppExport.cmake
+[0.340s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.340s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.340s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake
+[0.340s] -- Up-to-date: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.342s] Invoked command in '/ROS/zed_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/vectornav_msgs

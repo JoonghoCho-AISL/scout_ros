@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ROS/zed_ws/build/zed_ros2
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/environment/path.sh
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/environment/path.dsv
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/local_setup.bash
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/local_setup.sh
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/local_setup.zsh
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/local_setup.dsv
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/package.dsv
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake
+-- Symlinking: /ROS/zed_ws/install/zed_ros2/share/zed_ros2/package.xml

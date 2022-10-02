@@ -1,0 +1,55 @@
+[0.007s] Invoking command in '/ROS/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/opt/ros/foxy /usr/bin/cmake /ROS/ros2_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_wrapper
+[0.037s] -- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "11") 
+[0.057s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[0.058s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.148s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.355s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.383s] -- Found zed_components: 0.2.0 (/ROS/ros2_ws/install/zed_components/share/zed_components/cmake)
+[0.635s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.156s] -- Configuring done
+[1.173s] -- Generating done
+[1.174s] -- Build files have been written to: /ROS/ros2_ws/build/zed_wrapper
+[1.180s] Invoked command in '/ROS/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/opt/ros/foxy /usr/bin/cmake /ROS/ros2_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/ros2_ws/install/zed_wrapper
+[1.180s] Invoking command in '/ROS/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/opt/ros/foxy /usr/bin/cmake --build /ROS/ros2_ws/build/zed_wrapper -- -j20 -l20
+[1.217s] [100%] Built target zed_wrapper
+[1.224s] Invoked command in '/ROS/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/opt/ros/foxy /usr/bin/cmake --build /ROS/ros2_ws/build/zed_wrapper -- -j20 -l20
+[1.236s] Invoking command in '/ROS/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/opt/ros/foxy /usr/bin/cmake --install /ROS/ros2_ws/build/zed_wrapper
+[1.240s] -- Install configuration: "Release"
+[1.241s] -- Execute custom install script
+[1.241s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[1.241s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[1.241s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[1.241s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[1.241s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[1.241s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/include/zed_camera.launch.py
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed.launch.py
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2.launch.py
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2i.launch.py
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zedm.launch.py
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[1.242s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[1.243s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[1.243s] -- Symlinking: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[1.248s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[1.248s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[1.248s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[1.248s] -- Up-to-date symlink: /ROS/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[1.251s] Invoked command in '/ROS/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/ROS/ros2_ws/install/zed_components:/ROS/ros2_ws/install/zed_interfaces:/ROS/ros2_ws/install/zed_ros2:/ROS/ros2_ws/install/zed_wrapper:/opt/ros/foxy /usr/bin/cmake --install /ROS/ros2_ws/build/zed_wrapper

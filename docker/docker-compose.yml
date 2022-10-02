@@ -1,0 +1,42 @@
+version: '3.7'
+services:
+  vnc:
+    container_name: ros2_vnc
+    image: tiryoh/ros2-desktop-vnc:foxy
+    port:
+      - "6080:80"
+    network_mode: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+  zed:
+    container_name: ros2_zed
+    # build :
+    image: 3.7-ros2-gl-devel-cuda11.4-ubuntu20.04:v3
+    volumes:
+      - /home/joongho/ROS/:/ROS/
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment: DISPLAY=unix$DISPLAY
+    privileged: true
+    runtime: nvidia
+    network_mode: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    stdin_open: true
+    tty: true
+    depends_on:
+      - vnc
+    
+# networks:
+#   ros2net:
+#     external:
+#       driver: host
