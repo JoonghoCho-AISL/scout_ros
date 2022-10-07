@@ -1,0 +1,68 @@
+[0.129s] Invoking command in '/ROS/zed_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_tutorial_pos_tracking
+[0.160s] -- The C compiler identification is GNU 9.4.0
+[0.194s] -- The CXX compiler identification is GNU 9.4.0
+[0.197s] -- Check for working C compiler: /usr/bin/cc
+[0.234s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.234s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.281s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.329s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.387s] -- Detecting CXX compile features
+[0.387s] -- Detecting CXX compile features - done
+[0.389s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.405s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.405s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.538s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.633s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.654s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.749s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.750s] -- Looking for pthread.h
+[0.792s] -- Looking for pthread.h - found
+[0.792s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.834s] -- Looking for pthread_create in pthreads
+[0.868s] -- Looking for pthread_create in pthreads - not found
+[0.868s] -- Looking for pthread_create in pthread
+[0.909s] -- Looking for pthread_create in pthread - found
+[0.910s] -- Found Threads: TRUE  
+[1.014s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.035s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.119s] -- Configuring done
+[1.123s] -- Generating done
+[1.124s] -- Build files have been written to: /ROS/zed_ws/build/zed_tutorial_pos_tracking
+[1.129s] Invoked command in '/ROS/zed_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_tutorial_pos_tracking
+[1.131s] Invoking command in '/ROS/zed_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/zed_tutorial_pos_tracking -- -j20 -l20
+[1.156s] [35m[1mScanning dependencies of target zed_tutorial_pos_tracking[0m
+[1.181s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[8.026s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[8.108s] [100%] Built target zed_tutorial_pos_tracking
+[8.119s] Invoked command in '/ROS/zed_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/zed_tutorial_pos_tracking -- -j20 -l20
+[8.135s] Invoking command in '/ROS/zed_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/zed_tutorial_pos_tracking
+[8.139s] -- Install configuration: "Release"
+[8.139s] -- Execute custom install script
+[8.140s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[8.147s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[8.155s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[8.160s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[8.165s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[8.170s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[8.176s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[8.181s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[8.186s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[8.194s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[8.201s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[8.209s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[8.216s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[8.224s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[8.238s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[8.245s] -- Symlinking: /ROS/zed_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[8.258s] Invoked command in '/ROS/zed_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/zed_tutorial_pos_tracking

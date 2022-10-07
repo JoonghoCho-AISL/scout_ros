@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/ROS/zed_ws/install/zed_rgb_convert/include/**",
+        "/ROS/zed_ws/install/zed_components/include/**",
+        "/ROS/zed_ws/install/rviz_plugin_zed_od/include/**",
+        "/ROS/zed_ws/install/zed_interfaces/include/**",
+        "/ROS/zed_ws/install/vectornav/include/**",
+        "/ROS/zed_ws/install/vectornav_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

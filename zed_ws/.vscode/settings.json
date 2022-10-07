@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/ROS/zed_ws/install/zed_interfaces/lib/python3.8/site-packages",
+        "/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages",
+        "/ROS/zed_ws/build/send_mobius",
+        "/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/ROS/zed_ws/install/zed_interfaces/lib/python3.8/site-packages",
+        "/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages",
+        "/ROS/zed_ws/build/send_mobius",
+        "/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

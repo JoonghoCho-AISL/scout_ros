@@ -1,0 +1,415 @@
+[0.028s] Invoking command in '/ROS/zed_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake /ROS/zed_ws/src/vectornav/vectornav_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/vectornav_msgs
+[0.150s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.150s] -- Check for working C compiler: /usr/bin/cc
+[0.151s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.151s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.216s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.290s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.290s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.567s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.594s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.843s] -- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[0.845s] -- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[0.847s] -- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[0.849s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.103s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.123s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.123s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.123s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.140s] -- Found PythonExtra: .so  
+[1.206s] -- Found ament_cmake_flake8: 0.9.7 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[1.209s] -- Found ament_cmake_pep257: 0.9.7 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[1.224s] -- Configuring done
+[1.296s] -- Generating done
+[1.299s] -- Build files have been written to: /ROS/zed_ws/build/vectornav_msgs
+[1.305s] Invoked command in '/ROS/zed_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake /ROS/zed_ws/src/vectornav/vectornav_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/vectornav_msgs
+[1.307s] Invoking command in '/ROS/zed_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/vectornav_msgs -- -j20 -l20
+[1.333s] [35m[1mScanning dependencies of target vectornav_msgs__cpp[0m
+[1.333s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.339s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.093s] [  1%] Built target vectornav_msgs__cpp
+[2.102s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.104s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.109s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.180s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_generator_c[0m
+[2.201s] [  7%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/imu_group__functions.c.o[0m
+[2.201s] [  7%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_group__functions.c.o[0m
+[2.201s] [  7%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/common_group__functions.c.o[0m
+[2.201s] [  7%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/gps_group__functions.c.o[0m
+[2.226s] [  8%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/attitude_group__functions.c.o[0m
+[2.243s] [  8%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_group__functions.c.o[0m
+[2.281s] [  9%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_utc__functions.c.o[0m
+[2.286s] [ 10%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/dop__functions.c.o[0m
+[2.309s] [ 11%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/vpe_status__functions.c.o[0m
+[2.317s] [ 12%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_status__functions.c.o[0m
+[2.341s] [ 13%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_status__functions.c.o[0m
+[2.449s] [ 14%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_generator_c.so[0m
+[2.486s] [ 14%] Built target vectornav_msgs__rosidl_generator_c
+[2.496s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.496s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.971s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_cpp[0m
+[2.997s] [ 17%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[2.998s] [ 18%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[3.006s] [ 19%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[3.019s] [ 20%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[3.029s] [ 22%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[3.029s] [ 22%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[3.085s] [ 23%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[3.091s] [ 24%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[3.098s] [ 25%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[3.101s] [ 25%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[3.106s] [ 26%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[3.517s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.551s] [ 27%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_cpp.so[0m
+[3.574s] [ 28%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_group__type_support.cpp.o[0m
+[3.581s] [ 29%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/common_group__type_support.cpp.o[0m
+[3.587s] [ 30%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/imu_group__type_support.cpp.o[0m
+[3.597s] [ 31%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/gps_group__type_support.cpp.o[0m
+[3.646s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/attitude_group__type_support.cpp.o[0m
+[3.657s] [ 33%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_group__type_support.cpp.o[0m
+[3.676s] [ 34%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_utc__type_support.cpp.o[0m
+[3.676s] [ 34%] Built target vectornav_msgs__rosidl_typesupport_cpp
+[3.686s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.701s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/dop__type_support.cpp.o[0m
+[3.730s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_status__type_support.cpp.o[0m
+[3.733s] [ 36%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/vpe_status__type_support.cpp.o[0m
+[3.741s] [ 37%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_status__type_support.cpp.o[0m
+[3.749s] [ 37%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_group__type_support.cpp.o[0m
+[3.753s] [ 38%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/imu_group__type_support.cpp.o[0m
+[3.769s] [ 40%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/attitude_group__type_support.cpp.o[0m
+[3.771s] [ 41%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/gps_group__type_support.cpp.o[0m
+[3.777s] [ 42%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_group__type_support.cpp.o[0m
+[3.777s] [ 42%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/common_group__type_support.cpp.o[0m
+[3.868s] [ 43%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_utc__type_support.cpp.o[0m
+[3.891s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_c[0m
+[3.994s] [ 44%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[4.129s] [ 45%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/dop__type_support.cpp.o[0m
+[4.157s] [ 46%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[4.159s] [ 47%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/vpe_status__type_support.cpp.o[0m
+[4.181s] [ 47%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[4.192s] [ 48%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_status__type_support.cpp.o[0m
+[4.210s] [ 49%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[4.266s] [ 50%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[4.278s] [ 51%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_status__type_support.cpp.o[0m
+[4.295s] [ 52%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[4.340s] [ 53%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[4.363s] [ 54%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[4.384s] [ 55%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[4.421s] [ 56%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[4.445s] [ 57%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[4.585s] [ 58%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_c.so[0m
+[4.654s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_introspection_c[0m
+[4.666s] [ 58%] Built target vectornav_msgs__rosidl_typesupport_c
+[4.681s] [ 59%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/common_group__type_support.c.o[0m
+[4.699s] [ 60%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_group__type_support.c.o[0m
+[4.700s] [ 61%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/imu_group__type_support.c.o[0m
+[4.710s] [ 62%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/attitude_group__type_support.c.o[0m
+[4.712s] [ 63%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/gps_group__type_support.c.o[0m
+[4.732s] [ 64%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_group__type_support.c.o[0m
+[4.770s] [ 64%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_utc__type_support.c.o[0m
+[4.786s] [ 65%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/dop__type_support.c.o[0m
+[4.809s] [ 66%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/vpe_status__type_support.c.o[0m
+[4.814s] [ 67%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_status__type_support.c.o[0m
+[4.836s] [ 68%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_status__type_support.c.o[0m
+[4.907s] [ 69%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.958s] [ 70%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.034s] [ 71%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.046s] [ 71%] Built target vectornav_msgs__rosidl_typesupport_introspection_c
+[5.072s] [ 71%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp
+[5.083s] [ 72%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.128s] [ 72%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp
+[5.924s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_fastrtps_c[0m
+[5.952s] [ 73%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_group__type_support_c.cpp.o[0m
+[5.953s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/vpe_status__type_support_c.cpp.o[0m
+[5.953s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_group__type_support_c.cpp.o[0m
+[5.953s] [ 76%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/common_group__type_support_c.cpp.o[0m
+[5.953s] [ 78%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/dop__type_support_c.cpp.o[0m
+[5.953s] [ 79%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/gps_group__type_support_c.cpp.o[0m
+[5.953s] [ 79%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/imu_group__type_support_c.cpp.o[0m
+[5.953s] [ 79%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/attitude_group__type_support_c.cpp.o[0m
+[5.954s] [ 80%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_utc__type_support_c.cpp.o[0m
+[5.961s] [ 81%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_status__type_support_c.cpp.o[0m
+[5.963s] [ 82%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_status__type_support_c.cpp.o[0m
+[6.423s] [ 83%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.631s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c
+[6.640s] [35m[1mScanning dependencies of target vectornav_msgs[0m
+[6.649s] [ 83%] Built target vectornav_msgs
+[6.660s] [35m[1mScanning dependencies of target vectornav_msgs__py[0m
+[6.670s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.174s] [ 84%] Built target vectornav_msgs__py
+[8.179s] [35m[1mScanning dependencies of target vectornav_msgs__python[0m
+[8.205s] [ 85%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_common_group_s.c.o[0m
+[8.205s] [ 86%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_imu_group_s.c.o[0m
+[8.206s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_time_utc_s.c.o[0m
+[8.207s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_vpe_status_s.c.o[0m
+[8.207s] [ 88%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_time_group_s.c.o[0m
+[8.207s] [ 89%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_attitude_group_s.c.o[0m
+[8.207s] [ 91%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_gps_group_s.c.o[0m
+[8.208s] [ 91%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_group_s.c.o[0m
+[8.208s] [ 92%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_dop_s.c.o[0m
+[8.208s] [ 93%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_status_s.c.o[0m
+[8.215s] [ 94%] [32mBuilding C object CMakeFiles/vectornav_msgs__python.dir/rosidl_generator_py/vectornav_msgs/msg/_time_status_s.c.o[0m
+[8.359s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/libvectornav_msgs__python.so[0m
+[8.386s] [ 95%] Built target vectornav_msgs__python
+[8.391s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[8.391s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_c__pyext[0m
+[8.393s] [35m[1mScanning dependencies of target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.405s] [ 95%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.407s] [ 96%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.413s] [ 97%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.564s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.582s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.597s] [ 99%] Built target vectornav_msgs__rosidl_typesupport_c__pyext
+[8.608s] [ 99%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext
+[8.626s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.664s] [100%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.671s] Invoked command in '/ROS/zed_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/vectornav_msgs -- -j20 -l20
+[8.772s] Invoking command in '/ROS/zed_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/vectornav_msgs
+[8.777s] -- Install configuration: "Release"
+[8.777s] -- Execute custom install script
+[8.778s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs
+[8.784s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/attitude_group.h
+[8.789s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/common_group.h
+[8.794s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__functions.h
+[8.799s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__struct.h
+[8.804s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__type_support.h
+[8.809s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__functions.h
+[8.814s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__struct.h
+[8.818s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__type_support.h
+[8.823s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__functions.h
+[8.828s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__struct.h
+[8.832s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__type_support.h
+[8.837s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__functions.h
+[8.842s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__struct.h
+[8.847s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__type_support.h
+[8.852s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__functions.h
+[8.856s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__struct.h
+[8.861s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__type_support.h
+[8.866s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__functions.h
+[8.871s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__struct.h
+[8.876s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__type_support.h
+[8.880s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__functions.h
+[8.885s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__struct.h
+[8.890s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__type_support.h
+[8.895s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__functions.h
+[8.900s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__struct.h
+[8.905s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__type_support.h
+[8.910s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__functions.h
+[8.914s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__struct.h
+[8.920s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__type_support.h
+[8.924s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__functions.h
+[8.928s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__struct.h
+[8.932s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__type_support.h
+[8.937s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__functions.h
+[8.941s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__struct.h
+[8.945s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__type_support.h
+[8.950s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/dop.h
+[8.954s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/gps_group.h
+[8.959s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/imu_group.h
+[8.964s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_group.h
+[8.969s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_status.h
+[8.974s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.979s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_group.h
+[8.983s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_status.h
+[8.988s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_utc.h
+[8.992s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/vpe_status.h
+[8.997s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh
+[9.001s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv
+[9.006s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h
+[9.011s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h
+[9.015s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h
+[9.020s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h
+[9.024s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h
+[9.029s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h
+[9.034s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h
+[9.039s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h
+[9.045s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h
+[9.048s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h
+[9.053s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h
+[9.058s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.063s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so
+[9.069s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp
+[9.074s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp
+[9.081s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp
+[9.085s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp
+[9.090s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp
+[9.095s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp
+[9.100s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.105s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp
+[9.110s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.115s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp
+[9.121s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.126s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.131s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.138s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h
+[9.145s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h
+[9.150s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h
+[9.155s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h
+[9.160s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h
+[9.166s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h
+[9.171s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h
+[9.176s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h
+[9.181s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h
+[9.189s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h
+[9.193s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h
+[9.198s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.203s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/attitude_group.hpp
+[9.208s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/common_group.hpp
+[9.213s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__builder.hpp
+[9.218s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__struct.hpp
+[9.222s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__traits.hpp
+[9.229s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__builder.hpp
+[9.234s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__struct.hpp
+[9.239s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__traits.hpp
+[9.244s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__builder.hpp
+[9.249s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__struct.hpp
+[9.254s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__traits.hpp
+[9.258s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__builder.hpp
+[9.266s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__struct.hpp
+[9.272s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__traits.hpp
+[9.277s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__builder.hpp
+[9.283s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__struct.hpp
+[9.288s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__traits.hpp
+[9.293s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__builder.hpp
+[9.298s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__struct.hpp
+[9.303s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__traits.hpp
+[9.309s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__builder.hpp
+[9.315s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__struct.hpp
+[9.320s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__traits.hpp
+[9.325s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__builder.hpp
+[9.330s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__struct.hpp
+[9.335s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__traits.hpp
+[9.340s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__builder.hpp
+[9.345s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__struct.hpp
+[9.350s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__traits.hpp
+[9.355s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__builder.hpp
+[9.360s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__struct.hpp
+[9.365s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__traits.hpp
+[9.371s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__builder.hpp
+[9.378s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__struct.hpp
+[9.383s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__traits.hpp
+[9.387s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/dop.hpp
+[9.392s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/gps_group.hpp
+[9.396s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/imu_group.hpp
+[9.401s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_group.hpp
+[9.405s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/ins_status.hpp
+[9.410s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_group.hpp
+[9.414s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_status.hpp
+[9.419s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/time_utc.hpp
+[9.423s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/vpe_status.hpp
+[9.428s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp
+[9.432s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp
+[9.437s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp
+[9.441s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp
+[9.445s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp
+[9.450s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp
+[9.455s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp
+[9.460s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp
+[9.465s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp
+[9.469s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp
+[9.474s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/include/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp
+[9.479s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh
+[9.483s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv
+[9.488s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py
+[9.493s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/__init__.py
+[9.497s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group.py
+[9.502s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group.py
+[9.507s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop.py
+[9.512s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group.py
+[9.516s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group.py
+[9.521s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group.py
+[9.526s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status.py
+[9.530s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group.py
+[9.535s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status.py
+[9.539s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc.py
+[9.544s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status.py
+[9.549s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.553s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.558s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.563s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__python.so
+[9.568s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl
+[9.572s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl
+[9.577s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl
+[9.582s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl
+[9.587s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl
+[9.591s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl
+[9.596s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl
+[9.601s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl
+[9.605s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl
+[9.610s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl
+[9.614s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl
+[9.619s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg
+[9.624s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg
+[9.628s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg
+[9.633s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg
+[9.637s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg
+[9.642s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg
+[9.647s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg
+[9.652s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg
+[9.657s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg
+[9.662s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg
+[9.666s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg
+[9.670s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs
+[9.675s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs
+[9.679s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh
+[9.684s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv
+[9.689s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh
+[9.693s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv
+[9.698s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash
+[9.703s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh
+[9.707s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh
+[9.712s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv
+[9.716s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv
+[9.721s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs
+[9.726s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake
+[9.730s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.735s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.739s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.744s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.749s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.754s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.758s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake
+[9.763s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake
+[9.768s] -- Symlinking: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/package.xml
+[9.773s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so
+[9.773s] -- Set runtime path of "/ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so" to ""
+[9.773s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so
+[9.774s] -- Set runtime path of "/ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.774s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so
+[9.774s] -- Set runtime path of "/ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so" to ""
+[9.774s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so
+[9.774s] -- Set runtime path of "/ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.774s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so
+[9.774s] -- Set runtime path of "/ROS/zed_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so" to ""
+[9.793s] Compiling '/ROS/zed_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py'...
+[9.795s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cExport.cmake
+[9.796s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cExport-release.cmake
+[9.796s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.796s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[9.796s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake
+[9.796s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-release.cmake
+[9.796s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_generator_cppExport.cmake
+[9.797s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.797s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[9.797s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake
+[9.797s] -- Installing: /ROS/zed_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-release.cmake
+[9.801s] Invoked command in '/ROS/zed_ws/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/vectornav_msgs

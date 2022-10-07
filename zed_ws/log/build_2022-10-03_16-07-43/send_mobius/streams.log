@@ -1,0 +1,17 @@
+[0.368s] Invoking command in '/ROS/zed_ws/build/send_mobius': PYTHONPATH=/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ROS/zed_ws/install/send_mobius --editable --build-directory /ROS/zed_ws/build/send_mobius/build --no-deps install_data --install-dir /ROS/zed_ws/install/send_mobius
+[0.501s] running develop
+[0.565s] running egg_info
+[0.565s] writing send_mobius.egg-info/PKG-INFO
+[0.565s] writing dependency_links to send_mobius.egg-info/dependency_links.txt
+[0.565s] writing entry points to send_mobius.egg-info/entry_points.txt
+[0.565s] writing requirements to send_mobius.egg-info/requires.txt
+[0.565s] writing top-level names to send_mobius.egg-info/top_level.txt
+[0.582s] reading manifest file 'send_mobius.egg-info/SOURCES.txt'
+[0.582s] writing manifest file 'send_mobius.egg-info/SOURCES.txt'
+[0.599s] running build_ext
+[0.600s] Creating /ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages/send-mobius.egg-link (link to .)
+[0.600s] Installing send_data script to /ROS/zed_ws/install/send_mobius/lib/send_mobius
+[0.600s] 
+[0.600s] Installed /ROS/zed_ws/build/send_mobius
+[0.600s] running install_data
+[0.623s] Invoked command in '/ROS/zed_ws/build/send_mobius' returned '0': PYTHONPATH=/ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ROS/zed_ws/install/send_mobius --editable --build-directory /ROS/zed_ws/build/send_mobius/build --no-deps install_data --install-dir /ROS/zed_ws/install/send_mobius

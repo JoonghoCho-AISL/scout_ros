@@ -1,4 +1,0 @@
-Invoking command in '/ROS/zed_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/zed_interfaces -- -j20 -l20
-Invoked command in '/ROS/zed_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --build /ROS/zed_ws/build/zed_interfaces -- -j20 -l20
-Invoking command in '/ROS/zed_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/zed_interfaces
-Invoked command in '/ROS/zed_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS/robot_ws/install/send_mobius:/opt/ros/foxy /usr/bin/cmake --install /ROS/zed_ws/build/zed_interfaces

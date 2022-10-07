@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating send_mobius.egg-info
+writing send_mobius.egg-info/PKG-INFO
+writing dependency_links to send_mobius.egg-info/dependency_links.txt
+writing entry points to send_mobius.egg-info/entry_points.txt
+writing requirements to send_mobius.egg-info/requires.txt
+writing top-level names to send_mobius.egg-info/top_level.txt
+writing manifest file 'send_mobius.egg-info/SOURCES.txt'
+reading manifest file 'send_mobius.egg-info/SOURCES.txt'
+writing manifest file 'send_mobius.egg-info/SOURCES.txt'
+running build_ext
+Creating /ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages/site.py
+Creating /ROS/zed_ws/install/send_mobius/lib/python3.8/site-packages/send-mobius.egg-link (link to .)
+Installing send_data script to /ROS/zed_ws/install/send_mobius/lib/send_mobius
+
+Installed /ROS/zed_ws/build/send_mobius
+running install_data
+creating /ROS/zed_ws/install/send_mobius/share/ament_index
+creating /ROS/zed_ws/install/send_mobius/share/ament_index/resource_index
+creating /ROS/zed_ws/install/send_mobius/share/ament_index/resource_index/packages
+copying resource/send_mobius -> /ROS/zed_ws/install/send_mobius/share/ament_index/resource_index/packages
+copying package.xml -> /ROS/zed_ws/install/send_mobius/share/send_mobius

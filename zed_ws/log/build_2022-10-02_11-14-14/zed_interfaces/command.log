@@ -1,2 +1,0 @@
-Invoking command in '/ROS/zed_ws/build/zed_interfaces': /usr/bin/cmake --build /ROS/zed_ws/build/zed_interfaces -- -j20 -l20
-Invoked command in '/ROS/zed_ws/build/zed_interfaces' returned '2': /usr/bin/cmake --build /ROS/zed_ws/build/zed_interfaces -- -j20 -l20

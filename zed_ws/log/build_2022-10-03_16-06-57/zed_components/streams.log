@@ -1,0 +1,117 @@
+[0.012s] Invoking command in '/ROS/zed_ws/build/zed_components': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_components
+[0.042s] -- The C compiler identification is GNU 9.4.0
+[0.073s] -- The CXX compiler identification is GNU 9.4.0
+[0.076s] -- Check for working C compiler: /usr/bin/cc
+[0.113s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.114s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.162s] -- Check for working CXX compiler: /usr/bin/c++
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.208s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.271s] -- Looking for sgemm_
+[0.311s] -- Looking for sgemm_ - not found
+[0.312s] -- Looking for pthread.h
+[0.369s] -- Looking for pthread.h - found
+[0.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.418s] -- Looking for pthread_create in pthreads
+[0.455s] -- Looking for pthread_create in pthreads - not found
+[0.455s] -- Looking for pthread_create in pthread
+[0.497s] -- Looking for pthread_create in pthread - found
+[0.498s] -- Found Threads: TRUE  
+[0.521s] -- Looking for sgemm_
+[0.582s] -- Looking for sgemm_ - found
+[0.583s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.593s] -- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "11") 
+[0.621s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[0.625s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.647s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.739s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.763s] -- Found rcutils: 1.1.4 (/opt/ros/foxy/share/rcutils/cmake)
+[0.765s] -- Found zed_interfaces: 0.3.0 (/ROS/zed_ws/install/zed_interfaces/share/zed_interfaces/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.786s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.933s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.311s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.345s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.439s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.479s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.486s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.661s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.668s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.671s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.689s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.735s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.781s] -- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[1.855s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.885s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.892s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[1.915s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.929s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.997s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.112s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.128s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.133s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.133s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.133s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.133s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.150s] -- Found PythonExtra: .so  
+[2.154s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.155s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.155s] -- Configured cppcheck include dirs: /ROS/zed_ws/src/zed-ros2-wrapper/zed_components/src/include;/ROS/zed_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/ROS/zed_ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[2.155s] -- Configured cppcheck exclude dirs and/or files: 
+[2.156s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.156s] -- Configured cpplint exclude dirs and/or files: 
+[2.157s] -- Added test 'lint_cmake' to check CMake code style
+[2.157s] -- Added test 'uncrustify' to check C / C++ code style
+[2.157s] -- Configured uncrustify additional arguments: 
+[2.158s] -- Added test 'xmllint' to check XML markup files
+[2.161s] -- Configuring done
+[2.177s] -- Generating done
+[2.178s] -- Build files have been written to: /ROS/zed_ws/build/zed_components
+[2.185s] Invoked command in '/ROS/zed_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_components
+[2.187s] Invoking command in '/ROS/zed_ws/build/zed_components': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /ROS/zed_ws/build/zed_components -- -j20 -l20
+[2.211s] [35m[1mScanning dependencies of target zed_camera_component[0m
+[2.259s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[2.264s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[24.420s] [100%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[24.622s] [100%] Built target zed_camera_component
+[24.633s] Invoked command in '/ROS/zed_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /ROS/zed_ws/build/zed_components -- -j20 -l20
+[24.650s] Invoking command in '/ROS/zed_ws/build/zed_components': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /ROS/zed_ws/build/zed_components
+[24.653s] -- Install configuration: "Release"
+[24.653s] -- Execute custom install script
+[24.654s] -- Symlinking: /ROS/zed_ws/install/zed_components/lib/libzed_camera_component.so
+[24.659s] -- Symlinking: /ROS/zed_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[24.663s] -- Symlinking: /ROS/zed_ws/install/zed_components/include/zed_components//sl_tools.h
+[24.668s] -- Symlinking: /ROS/zed_ws/install/zed_components/include/zed_components//visibility_control.h
+[24.672s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[24.677s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[24.681s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[24.686s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[24.690s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[24.695s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[24.700s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/environment/path.sh
+[24.705s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/environment/path.dsv
+[24.709s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/local_setup.bash
+[24.714s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/local_setup.sh
+[24.718s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/local_setup.zsh
+[24.723s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/local_setup.dsv
+[24.727s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/package.dsv
+[24.732s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[24.736s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[24.741s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.745s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[24.750s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.754s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[24.759s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[24.763s] -- Symlinking: /ROS/zed_ws/install/zed_components/share/zed_components/package.xml
+[24.769s] Invoked command in '/ROS/zed_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /ROS/zed_ws/build/zed_components

@@ -1,0 +1,172 @@
+[0.014s] Invoking command in '/ROS/zed_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_wrapper
+[0.048s] -- The C compiler identification is GNU 9.4.0
+[0.079s] -- The CXX compiler identification is GNU 9.4.0
+[0.082s] -- Check for working C compiler: /usr/bin/cc
+[0.121s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.122s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.168s] -- Check for working CXX compiler: /usr/bin/c++
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.213s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.268s] -- Looking for sgemm_
+[0.307s] -- Looking for sgemm_ - not found
+[0.308s] -- Looking for pthread.h
+[0.349s] -- Looking for pthread.h - found
+[0.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.393s] -- Looking for pthread_create in pthreads
+[0.425s] -- Looking for pthread_create in pthreads - not found
+[0.425s] -- Looking for pthread_create in pthread
+[0.465s] -- Looking for pthread_create in pthread - found
+[0.466s] -- Found Threads: TRUE  
+[0.482s] -- Looking for sgemm_
+[0.540s] -- Looking for sgemm_ - found
+[0.541s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.550s] -- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "11") 
+[0.576s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[0.578s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.597s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.597s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.710s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.747s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.801s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.821s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.917s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.015s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.054s] -- Found zed_components: 0.2.0 (/ROS/zed_ws/install/zed_components/share/zed_components/cmake)
+[1.369s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.372s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.964s] -- Configuring done
+[1.983s] -- Generating done
+[1.984s] -- Build files have been written to: /ROS/zed_ws/build/zed_wrapper
+[1.991s] Invoked command in '/ROS/zed_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /ROS/zed_ws/src/zed-ros2-wrapper/zed_wrapper -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS/zed_ws/install/zed_wrapper
+[1.992s] Invoking command in '/ROS/zed_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /ROS/zed_ws/build/zed_wrapper -- -j20 -l20
+[2.015s] [35m[1mScanning dependencies of target zed_wrapper[0m
+[2.059s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o[0m
+[2.823s] In file included from [01m[K/ROS/zed_ws/install/zed_components/include/zed_components/sl_tools.h:50[m[K,
+[2.823s]                  from [01m[K/ROS/zed_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:28[m[K,
+[2.824s]                  from [01m[K/ROS/zed_ws/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26[m[K:
+[2.824s] [01m[K/usr/local/zed/include/sl/Camera.hpp:820:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.824s]   820 |             [01;35m[K}[m[K;
+[2.824s]       |             [01;35m[K^[m[K
+[2.824s] [01m[K/usr/local/zed/include/sl/Camera.hpp:973:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.824s]   973 |             [01;35m[K}[m[K;
+[2.824s]       |             [01;35m[K^[m[K
+[2.824s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1150:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.824s]  1150 |             [01;35m[K}[m[K;
+[2.824s]       |             [01;35m[K^[m[K
+[2.824s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1314:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.824s]  1314 |             [01;35m[K}[m[K;
+[2.824s]       |             [01;35m[K^[m[K
+[2.824s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1318:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.824s]  1318 |             [01;35m[K}[m[K;
+[2.825s]       |             [01;35m[K^[m[K
+[2.825s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1322:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.825s]  1322 |             [01;35m[K}[m[K;
+[2.825s]       |             [01;35m[K^[m[K
+[2.825s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1562:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.825s]  1562 |             [01;35m[K}[m[K;
+[2.825s]       |             [01;35m[K^[m[K
+[2.825s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1566:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.825s]  1566 |             [01;35m[K}[m[K;
+[2.825s]       |             [01;35m[K^[m[K
+[2.825s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1570:13:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[2.825s]  1570 |             [01;35m[K}[m[K;
+[2.825s]       |             [01;35m[K^[m[K
+[2.827s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.827s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2024:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.827s]  2024 |         return [01;35m[Klhs[m[K;
+[2.827s]       |                [01;35m[K^~~[m[K
+[2.827s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.827s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.827s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.827s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.827s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2029:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.827s]  2029 |         return [01;35m[Klhs[m[K;
+[2.827s]       |                [01;35m[K^~~[m[K
+[2.827s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.827s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.827s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2034:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.828s]  2034 |         return [01;35m[Klhs[m[K;
+[2.828s]       |                [01;35m[K^~~[m[K
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.828s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.828s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)[m[K’:
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2039:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.828s]  2039 |         return [01;35m[Klhs[m[K;
+[2.828s]       |                [01;35m[K^~~[m[K
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.828s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.828s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[Ksl::Timestamp sl::getCurrentTimeStamp()[m[K’:
+[2.828s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2073:16:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr sl::Timestamp::Timestamp(const sl::Timestamp&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[2.829s]  2073 |         return [01;35m[Kcurrent_ts[m[K;
+[2.829s]       |                [01;35m[K^~~~~~~~~~[m[K
+[2.829s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1963:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Ksl::Timestamp[m[K’ has user-provided ‘[01m[Ksl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)[m[K’
+[2.829s]  1963 |         Timestamp& [01;36m[Koperator[m[K=(Timestamp other) {
+[2.829s]       |                    [01;36m[K^~~~~~~~[m[K
+[2.829s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K In function ‘[01m[KcudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)[m[K’:
+[2.829s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2079:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.829s]  2079 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, [01;35m[Kconst char *file[m[K, const int line) {
+[2.829s]       |                                                                             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.829s] [01m[K/usr/local/zed/include/sl/Camera.hpp:2079:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.829s]  2079 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, [01;35m[Kconst int line[m[K) {
+[2.829s]       |                                                                                               [01;35m[K~~~~~~~~~~^~~~[m[K
+[2.869s] In file included from [01m[K/ROS/zed_ws/install/zed_components/include/zed_components/sl_tools.h:50[m[K,
+[2.869s]                  from [01m[K/ROS/zed_ws/install/zed_components/include/zed_components/zed_camera_component.hpp:28[m[K,
+[2.869s]                  from [01m[K/ROS/zed_ws/src/zed-ros2-wrapper/zed_wrapper/src/zed_wrapper.cpp:26[m[K:
+[2.869s] [01m[K/usr/local/zed/include/sl/Camera.hpp:[m[K At global scope:
+[2.869s] [01m[K/usr/local/zed/include/sl/Camera.hpp:5399:12:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+[2.869s]  5399 |     inline [01;35m[Kconst[m[K void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+[2.869s]       |            [01;35m[K^~~~~[m[K
+[2.870s] [01m[K/usr/local/zed/include/sl/Camera.hpp:5791:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[2.870s]  5791 | }[01;35m[K;[m[K
+[2.870s]       |  [01;35m[K^[m[K
+[3.902s] [100%] [32m[1mLinking CXX executable zed_wrapper[0m
+[4.027s] [100%] Built target zed_wrapper
+[4.039s] Invoked command in '/ROS/zed_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /ROS/zed_ws/build/zed_wrapper -- -j20 -l20
+[4.053s] Invoking command in '/ROS/zed_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /ROS/zed_ws/build/zed_wrapper
+[4.057s] -- Install configuration: "Release"
+[4.058s] -- Execute custom install script
+[4.058s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[4.063s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[4.068s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[4.073s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[4.078s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[4.082s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[4.087s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[4.092s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[4.097s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[4.102s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/launch/include/zed_camera.launch.py
+[4.107s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/launch/zed.launch.py
+[4.112s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2.launch.py
+[4.117s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2i.launch.py
+[4.122s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/launch/zedm.launch.py
+[4.127s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[4.132s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[4.137s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[4.142s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[4.147s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[4.152s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[4.157s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[4.162s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[4.167s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[4.172s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[4.177s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[4.181s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[4.186s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[4.191s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[4.196s] -- Symlinking: /ROS/zed_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[4.202s] Invoked command in '/ROS/zed_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/ROS/zed_ws/install/zed_components:/ROS/zed_ws/install/zed_interfaces:/ROS/zed_ws/install/zed_ros2:/ROS/zed_ws/install/zed_display_rviz2:/ROS/zed_ws/install/zed_wrapper:/ROS/zed_ws/install/zed_tutorial_video:/ROS/zed_ws/install/zed_tutorial_pos_tracking:/ROS/zed_ws/install/zed_tutorial_depth:/ROS/zed_ws/install/zed_rgb_convert:/ROS/zed_ws/install/rviz_plugin_zed_od:/ROS/zed_ws/install/vectornav:/ROS/zed_ws/install/vectornav_msgs:/ROS/zed_ws/install/send_mobius:/opt/ros/foxy LD_LIBRARY_PATH=/ROS/zed_ws/install/zed_components/lib:/ROS/zed_ws/install/zed_interfaces/lib:/ROS/zed_ws/install/zed_rgb_convert/lib:/ROS/zed_ws/install/rviz_plugin_zed_od/lib:/ROS/zed_ws/install/vectornav/lib:/ROS/zed_ws/install/vectornav_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /ROS/zed_ws/build/zed_wrapper
